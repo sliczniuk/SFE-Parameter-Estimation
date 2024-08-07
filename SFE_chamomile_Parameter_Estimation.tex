@@ -23,6 +23,9 @@
 \usepackage[T1]{fontenc}
 \usepackage{subcaption}
 
+\usepackage{nomencl}
+\makenomenclature
+
 \usepackage{csvsimple}
 
 % TODO package
@@ -34,7 +37,7 @@
 % Margin and formatting specifications
 %\usepackage[authoryear]{natbib}
 \usepackage[sort]{natbib}
-\setcitestyle{square,numbers}
+\setcitestyle{comma,square,super}
 
  %\bibliographystyle{cas-model2-names}
 
@@ -86,8 +89,8 @@
 % ===================================================
 % METADATA
 % ===================================================
-\title[mode=title]{Supercritical fluid extraction of essential oil from chamomile flowers: modelling and parameter estimation}                      
-\shorttitle{Supercritical fluid extraction of essential oil from chamomile flowers: modelling and parameter estimation}
+\title[mode=title]{Mathematical modelling of essential oil supercritical carbon dioxide extraction from chamomile flowers} 
+\shorttitle{Mathematical modelling of essential oil supercritical carbon dioxide extraction from chamomile flowers}
 
 \shortauthors{OS, PO}
 
@@ -108,7 +111,7 @@
 % ABSTRACT
 % ===================================================
 \begin{abstract}
-This study investigates the supercritical extraction process of essential oil from chamomile flowers. Essential oils of chamomile are used extensively for medicinal purposes. Many different chamomile products have been developed, the most popular of which is herbal tea. In this study, a mathematical model is formulated that describes the governing mass transfer phenomena in a solid-fluid environment under supercritical conditions using carbon dioxide. The concept of quasi-one-dimensional flow is applied to reduce the number of spatial dimensions. The flow of carbon dioxide is assumed to be uniform across any cross-section, although the area available for the fluid phase can vary along the extractor. The physical properties of the solvent are estimated based on the Peng-Robinson equation of state. Model parameters, including the partition factor, internal diffusion coefficient and decaying factor, were determined through maximum likelihood estimation based on experimental data assuming normally distributed errors. A set of laboratory experiments was performed under multiple constant operating conditions: $30-40~^\circ$C, $100-200$ bar and $3.33-6.67 \cdot 10^{-5}$ kg/s.
+This study investigates the supercritical extraction process of essential oil from chamomile flowers. Essential oils of chamomile are used extensively for medicinal purposes. Many different chamomile products have been developed, the most popular of which is herbal tea. In this study, a mathematical model is formulated that describes the governing mass transfer phenomena in a solid-fluid environment under supercritical conditions using carbon dioxide. The concept of quasi-one-dimensional flow is applied to reduce the number of spatial dimensions. The flow of carbon dioxide is assumed to be uniform across any cross-section, although the area available for the fluid phase can vary along the extractor. The physical properties of the solvent are estimated based on the Peng-Robinson equation of state. Model parameters, including the partition factor, internal diffusion coefficient and decaying factor, were determined through maximum likelihood estimation based on experimental data assuming normally distributed errors. %A set of laboratory experiments was performed under multiple constant operating conditions: $30-40~^\circ$C, $100-200$ bar and $3.33-6.67 \cdot 10^{-5}$ kg/s.
 
 %A distributed-parameter model describes the fluid-solid extraction process.
 
@@ -128,6 +131,13 @@ Supercritical extraction \sep Parameter estimation \sep Mathematical modelling
 % ===================================================
 
 \section{Introduction}
+
+\noindent This is an example to show how the \texttt{nomencl} package works, with units typeset via the \texttt{siunitx} package. \href{https://www.nist.gov/pml/fundamental-physical-constants}{NIST} was referenced to provide the values of physical constants, and their corresponding units---links are provided via the \texttt{hyperref} package:
+
+\nomenclature{\(c\)}{Speed of light in a vacuum}
+\nomenclature{\(h\)}{Planck constant}
+
+\printnomenclature
 
 This study investigates the extraction of essential oil from chamomile flowers (Matricaria chamomilla L.) via supercritical fluid extraction techniques and the modelling of this process. Chamomile is a medicinal herb widely cultivated in southern and eastern Europe — in countries such as Germany, Hungary, France and Russia. It can be found outside Europe, for instance in Brazil as discussed by \citet{Singh2011}. This plant is distinguished by its hollow, bright gold cones, housing disc or tubular florets and surrounded by about fifteen white ray or ligulate florets. Chamomile has been used for its medicinal benefits, serving as an anti-inflammatory, antioxidant, mild astringent, and healing remedy. Aqueous extract of chamomile is widely used to calm nerves and mitigate anxiety, hysteria, nightmares, insomnia and other sleep-related conditions, according to \citet{Srivastava2009}. \citet{Orav2010} reported that oil yields from dried chamomile samples ranged from 0.7 to 6.7 mL/kg. The highest yields of essential oil, between 6.1 and 6.7 mL/kg, were derived from chamomile sourced from Latvia and Ukraine. In comparison, chamomile from Armenia exhibited a lower oil content of 0.7 mL/kg.
 
@@ -435,11 +445,11 @@ The initial guess for each decision variable, as well as the lower and upper bou
 	
 	The solution of Equation \ref{EQ: Optimization_formulation_MLE} yields the desired estimates $\hat{\theta}$. For some models, these equations can be explicitly solved for $\hat{\theta}$, but in general, no closed-form solution to the maximization problem is known or available, and a maximum likelihood estimator can only be found via numerical optimization.
 
-\subsection{Experimental work}
+%\subsection{Experimental work}
 
-\label{CH: Experiments}
+%\label{CH: Experiments}
 
-In order to solve the optimization problem presented by Equation \ref{EQ: Optimization_formulation_MLE}, it was necessary to test the process model against the experimental dataset $Y(t)$, which was obtained by extracting oil from chamomile flowers. The experiments were performed by \citet{Povh2001} and \citet{Rahimi2011}, and conducted using a semi-batch extractor with a diameter of 3.96 cm and a length of 16.55 cm. Twelve experiments were performed under different operating conditions: $30-40^\circ C$, 100 - 200 bar and 0.12 - 0.24 kg/h. The amount of solid material used for extraction was 75 grams. The bulk density of the bed was computed based on the mass of the feed and the extractor volume. The bed porosity was determined using the following calculation: $\epsilon=1-\frac{d_a}{d_r} = 1-\frac{370}{1364} = 0.73$. It is assumed that the total amount of solute equals 3 grams, defined as the largest obtained yield after rounding up.
+%In order to solve the optimization problem presented by Equation \ref{EQ: Optimization_formulation_MLE}, it was necessary to test the process model against the experimental dataset $Y(t)$, which was obtained by extracting oil from chamomile flowers. The experiments were performed by \citet{Povh2001} and \citet{Rahimi2011}, and conducted using a semi-batch extractor with a diameter of 3.96 cm and a length of 16.55 cm. Twelve experiments were performed under different operating conditions: $30-40^\circ C$, 100 - 200 bar and 0.12 - 0.24 kg/h. The amount of solid material used for extraction was 75 grams. The bulk density of the bed was computed based on the mass of the feed and the extractor volume. The bed porosity was determined using the following calculation: $\epsilon=1-\frac{d_a}{d_r} = 1-\frac{370}{1364} = 0.73$. It is assumed that the total amount of solute equals 3 grams, defined as the largest obtained yield after rounding up.
 
 % ===================================================
 % Section: Results
@@ -448,6 +458,8 @@ In order to solve the optimization problem presented by Equation \ref{EQ: Optimi
 \section{Results}
 
 \label{CH: Results}
+
+{\color{blue}In order to solve the optimization problem presented by Equation \ref{EQ: Optimization_formulation_MLE}, it was necessary to test the process model against the experimental dataset $Y(t)$, which was obtained by extracting oil from chamomile flowers. The experiments were conducted by \citet{Povh2001} and \citet{Rahimi2011}, in a a semi-batch extractor with a diameter of 3.96 cm and a length of 16.55 cm. Twelve experiments were performed under different operating conditions: $30-40^\circ C$, 100 - 200 bar and 0.12 - 0.24 kg/h. The amount of solid material used for extraction was 75 grams. }
 
 To solve the parameter estimation problem, the single shooting method was used to transform the boundary-value problem into the initial value problem and to formulate the non-linear programming problem. This non-linear optimisation task was tackled using the CasADi framework (\citet{Andersson2018}). Each time series was fitted separately to the model with the linear extraction kinetics (Equation \ref{Model_kinetic_no_sat}). The parameter estimation problem was solved multiple times with varying parameter initial values to identify the global minimum. In the case of linear kinetic, two parameters remain to be determined: the partition coefficient $k_m$ and the internal diffusion coefficient $D_i$. \citet{Rahimi2011} analysed the same dataset and reported Peclet numbers between 290 and 400. A high Peclet number suggests that the advection term dominates the mass transfer, and the axial diffusion is negligible, which is one of the modelling assumptions.
 
@@ -582,7 +594,7 @@ A more general relationship can be obtained by applying multiple linear regressi
 
 The parameter estimation results are compared against those presented by \citet{Povh2001}, who applied the Sovova model to the same dataset. It is important to note that, as the initial solute mass ratio, \citet{Povh2001} used  a value of 10\% above the total amount of extract for every experiment, while in this work, the initial conditions are the same for all the experiments. In contrast to this work, \citet{Povh2001} did not utilise numerical solvers but used a mix of analytical methodologies and trial-and-error procedures. \citet{Povh2001} remarked that 'the direct fitting of experimental data to Sovova's model produced parameters that could not be accepted after a careful physical interpretation of the system'. The parameters identified in this study have a physical interpretation and are within the expected range.
 
-\citet{Rahimi2011} analysed the same dataset using the desorption–dissolution–diffusion model. To decrease the number of unknown parameters, \citet{Rahimi2011} applied a set of empirical correlations. The remaining parameters were determined using a genetic algorithm to solve the parameter estimation problem for each experiment individually. The results obtained by \citet{Rahimi2011} show that the desorption–dissolution–diffusion model fails to reproduce the yield data. The main difference between the model employed by \citet{Rahimi2011} and the one in this study is the $\gamma$ function. The $\gamma$ function increases the model's flexibility by adjusting $D_i$ and allows it to obtain a better fit.
+\citet{Rahimi2011} analysed the same dataset using the desorption-dissolution-diffusion model. To decrease the number of unknown parameters, \citet{Rahimi2011} applied a set of empirical correlations. The remaining parameters were determined using a genetic algorithm to solve the parameter estimation problem for each experiment individually. The results obtained by \citet{Rahimi2011} show that the desorption-dissolution-diffusion model fails to reproduce the yield data. The main difference between the model employed by \citet{Rahimi2011} and the one in this study is the $\gamma$ function. The $\gamma$ function increases the model's flexibility by adjusting $D_i$ and allows it to obtain a better fit.
 
 \citet{Povh2001} and \citet{Rahimi2011} delivered a set of independent parameters for every experiment. This work combines the parameters obtained from each experiment to obtain a single correlation valid for the whole range of investigated operating conditions.
 
@@ -595,7 +607,7 @@ The article has presented a comprehensive study on the supercritical fluid extra
 
 The model calibration is based on the data from laboratory experiments conducted by \citet{Povh2001} under various conditions. The model parameters, such as the partition factor, internal diffusion coefficient and decaying factor, were determined through maximum likelihood estimation based on experimental data. The parameter space exploration revealed that while some parameters could be determined with a high degree of confidence, others, like the partition factor, had a low impact on the model's output. The identification of low-impact parameters leads to model reduction. This work introduced a set of correlations to find a general relationship between the parameters and the operating conditions. The obtained correlations were incorporated into the process model and tested against the dataset. The process model is capable of reproducing the dataset with satisfactory accuracy.
 
-The process model can be further used with the presented correlations to introduce an extraction model with dynamically changing operating conditions for multiple purposes, such as yield maximisation, local sensitivity analysis, techno-economic analysis or optimal design of experiments.
+%The process model can be further used with the presented correlations to introduce an extraction model with dynamically changing operating conditions for multiple purposes, such as yield maximisation, local sensitivity analysis, techno-economic analysis or optimal design of experiments.
 
 % ===================================================
 % Bibliography
@@ -744,5 +756,60 @@ They can be written as
 }
 
 The largest and smallest are the vapour and liquid phases, respectively. The middle one has no physical interpretation.
+\begin{comment}
+\newpage
+\begin{table*}[p]
+	\centering
+	\caption{Notation}
+	\label{tab::symbols}
+	\begin{tabular}{ |c|l|c| } 
+		\hline
+		Symbol 		& 	Description 							& Unit 						\\ \hline
+		$A$			&	cross-section							& $m^2$ 					\\ \hline
+		$c$			&	concentration in fluid phase			& $kg ~ m^{-3}$				\\ \hline
+		$Cp$		&	specific heat of the fluid				& $J ~ mol^{-1} ~ K^{-1}$ 	\\ \hline
+		$Cp_s$		&	specific heat of the solid				& $J ~ mol^{-1} ~ K^{-1}$ 	\\ \hline
+		$D_e^M$		&	axial mass diffusion coefficient		& $m^2 ~ s^{-1}$			\\ \hline
+		$D_e^T$		&	axial heat diffusion coefficient		& $m^2 ~ s^{-1}$			\\ \hline
+		$Di$		&	internal diffusion coefficient			& $m^2 ~ s^{-1}$			\\ \hline
+		$dp$		&	particle diameter						& $m$						\\ \hline
+		$F(t)$		&	mass flow-rate							& $kg ~ s^{-1}$				\\ \hline
+		$km$		&	partition coefficient					& $[-]$						\\ \hline
+		$k^T$		&	thermal conductivity					& $W ~ m^{-1} ~ K^{-1}$		\\ \hline
+		$l$			&	characteristic dimension				& $m$						\\ \hline
+		$L$			&	total length of the bed					& $m$						\\ \hline
+		$m$			&	mass of the oil in solid phase			& $kg$						\\ \hline
+		$m_0$		&	initial mass of the oil in solid phase	& $kg$						\\ \hline
+		$M_{CO_2}$	&	molecular mass of CO2					& $mol ~ kg^{-1}$			\\ \hline
+		$Np$		&	number of model parameters and control variables & $[-]$			\\ \hline
+		$N_{\theta}$&	number of model parameters				& $[-]$						\\ \hline
+		$Nu$		&	number of control variables				& $[-]$						\\ \hline
+		$Nz$		&	number of grid points in z-direction	& $[-]$						\\ \hline
+		$p$			&	vector of model parameters and control variables	& $[-]$			\\ \hline
+		$P(t)$		&	pressure								& $bar$						\\ \hline
+		$Pe$		&	Peclet's number							& $[-]$						\\ \hline
+		$q$			&	concentration in solid phase			& $kg ~ m^{-3}$				\\ \hline
+		$R$			&	gas constant							& $J ~ K^{-1} ~ mol^{-1}$	\\ \hline
+		$Re$		&	Reynolds number							& $[-]$						\\ \hline
+		$t$			&	time									& $s$						\\ \hline
+		$T$			&	temperature								& $K$						\\ \hline
+		$T_0$		&	initial temperature						& $K$						\\ \hline
+		$V$			&	volume of the extractor					& $m^3$						\\ \hline
+		$y$			&	yield	 								& $[-]$						\\ \hline
+		$z$			&	length									& $m$						\\ \hline
+		$Z$			&	compressibility	factor					& $[-]$						\\ \hline
+		$\epsilon$	&	void fraction							& $[-]$						\\ \hline
+		$\rho$		&	density of the fluid					& $kg ~ m^{-3}$				\\ \hline
+		$\rho_s$	&	solid density							& $kg ~ m^{-3}$				\\ \hline
+		$\mu$		&	shape coefficient						& $[-]$						\\ \hline
+		$\theta$	&	vector of model parameters				& $[-]$						\\ \hline
+		$\eta$		&	viscosity								& $cP$						\\ \hline				
+		& 											&							\\ \hline			
+		Subscript	& 											&							\\ \hline
+		$0$			&	initial conditions						& $[-]$						\\ \hline
+		$^*$		&	equilibrium conditions					& $[-]$						\\ \hline							
+	\end{tabular}
+\end{table*}
+\end{comment}
 
 \end{document}
