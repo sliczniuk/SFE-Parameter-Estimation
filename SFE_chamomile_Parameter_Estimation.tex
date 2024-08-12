@@ -26,6 +26,15 @@
 \usepackage{nomencl}
 \makenomenclature
 
+\usepackage{etoolbox}
+\renewcommand\nomgroup[1]{%
+	\item[\bfseries
+	\ifstrequal{#1}{A}{Latin symbols}{%
+	\ifstrequal{#1}{B}{Greek symbols}{%
+	\ifstrequal{#1}{C}{Abberivations}{
+	}}}%
+	]}
+
 \usepackage{csvsimple}
 
 % TODO package
@@ -132,13 +141,6 @@ Supercritical extraction \sep Parameter estimation \sep Mathematical modelling
 
 \section{Introduction}
 
-\noindent This is an example to show how the \texttt{nomencl} package works, with units typeset via the \texttt{siunitx} package. \href{https://www.nist.gov/pml/fundamental-physical-constants}{NIST} was referenced to provide the values of physical constants, and their corresponding units---links are provided via the \texttt{hyperref} package:
-
-\nomenclature{\(c\)}{Speed of light in a vacuum}
-\nomenclature{\(h\)}{Planck constant}
-
-\printnomenclature
-
 This study investigates the extraction of essential oil from chamomile flowers (Matricaria chamomilla L.) via supercritical fluid extraction techniques and the modelling of this process. Chamomile is a medicinal herb widely cultivated in southern and eastern Europe — in countries such as Germany, Hungary, France and Russia. It can be found outside Europe, for instance in Brazil as discussed by \citet{Singh2011}. This plant is distinguished by its hollow, bright gold cones, housing disc or tubular florets and surrounded by about fifteen white ray or ligulate florets. Chamomile has been used for its medicinal benefits, serving as an anti-inflammatory, antioxidant, mild astringent, and healing remedy. Aqueous extract of chamomile is widely used to calm nerves and mitigate anxiety, hysteria, nightmares, insomnia and other sleep-related conditions, according to \citet{Srivastava2009}. \citet{Orav2010} reported that oil yields from dried chamomile samples ranged from 0.7 to 6.7 mL/kg. The highest yields of essential oil, between 6.1 and 6.7 mL/kg, were derived from chamomile sourced from Latvia and Ukraine. In comparison, chamomile from Armenia exhibited a lower oil content of 0.7 mL/kg.
 
 Evaluating the economic viability of the process is essential when choosing a suitable technology for essential oil extraction. Traditional methods, such as distillation and organic solvent extraction, are commonly employed but have drawbacks. Distillation, for example, involves high temperatures that can lead to the thermal degradation of heat-sensitive compounds. This limitation has led to the increased popularity of alternative techniques such as supercritical fluid extraction. Supercritical carbon dioxide is appealing thanks to its distinctive properties: it is inflammable, non-toxic and non-corrosive. Supercritical fluids can exhibit both gas- and liquid-like properties, allowing for adjustable dissolving power through changes in operating conditions.
@@ -151,7 +153,7 @@ The Broken-and-Intact Cell model, proposed by \citet{Sovova1994}, assumes that e
 
 \citet{Reverchon1996} formulated a fluid-solid extraction model where the solute is treated as a single component, governed by internal mass transfer resistance and omitting the effects of external mass transfer, axial dispersion and variations in fluid density and flow rate throughout the bed.
 
-This work builds upon the linear kinetic model suggested by \citet{Reverchon1996}, deriving fundamental governing equations to develop a comprehensive model for the chamomile oil extraction process. This model aims for control-oriented simplicity, assuming a semi-continuous operation within a cylindrical vessel. The process involves a supercritical solvent being pumped through a fixed bed of finely chopped biomass to extract the solute, followed by separation of the solvent and solute in a flush drum to collect the extract. Parameters such as pressure ($P$), feed flow rate ($F_{in}$) and inlet temperature ($T_{in}$) are adjustable and measurable, while the outlet temperature ($T_{out}$) and the amount of product at the outlet can only be monitored. Figure \ref{fig: SFE_drawing} presents a simplified process flow diagram.
+This work builds upon the linear kinetic model suggested by \citet{Reverchon1996}, deriving fundamental governing equations to develop a comprehensive model for the chamomile oil extraction process. This model aims for control-oriented simplicity, assuming a semi-continuous operation within a cylindrical vessel. The process involves a supercritical solvent being pumped through a fixed bed of finely chopped biomass to extract the solute, followed by separation of the solvent and solute in a flush drum to collect the extract. Parameters such as pressure ($P$), feed flow rate ($F$) and inlet temperature ($T^{in}$) are adjustable and measurable, while the outlet temperature ($T^{out}$) and the amount of product at the outlet can only be monitored. Figure \ref{fig: SFE_drawing} presents a simplified process flow diagram.
 
 \begin{figure}[h!]
 	\centering
@@ -405,7 +407,7 @@ Maximum likelihood estimation (MLE) is a statistical method used to estimate the
 
 {\footnotesize
 	\begin{equation} \label{EQ: Objective_function}
-		\ln L = -\cfrac{n}{2}  \ln \left(2 \pi \sigma^2\right) 
+		\ln \mathcal{L} = -\cfrac{n}{2}  \ln \left(2 \pi \sigma^2\right) 
 		- \cfrac{ \sum_{i=1}^{n} \left[  \cfrac{d {Y}(t_i)}{dt} - \cfrac{dy(\theta, t_i)}{dt} \right]^2 }{2 \sigma^2}
 	\end{equation}
 }
@@ -415,7 +417,7 @@ The parameter estimation problem can be formulated as follows:
 {\footnotesize
 	\begin{equation}
 		\begin{aligned} \label{EQ: Optimization_formulation_MLE}
-			&\hat{\theta}_{MLE} &= \arg \max_{\sigma, \theta \in \Theta} \ln L = \arg \max_{\sigma,\theta \in \Theta} p(\theta|y) \\
+			&\hat{\theta}_{MLE} &= \arg \max_{\sigma, \theta \in \Theta} \ln \mathcal{L} = \arg \max_{\sigma,\theta \in \Theta} p(\theta|y) \\
 			&\text{subject to}
 			& \dot{ x } = G({\color{black} x};\Theta(\theta)) \\
 			&& \dot{\theta} = 0 \\
@@ -595,6 +597,7 @@ A more general relationship can be obtained by applying multiple linear regressi
 The parameter estimation results are compared against those presented by \citet{Povh2001}, who applied the Sovova model to the same dataset. It is important to note that, as the initial solute mass ratio, \citet{Povh2001} used  a value of 10\% above the total amount of extract for every experiment, while in this work, the initial conditions are the same for all the experiments. In contrast to this work, \citet{Povh2001} did not utilise numerical solvers but used a mix of analytical methodologies and trial-and-error procedures. \citet{Povh2001} remarked that 'the direct fitting of experimental data to Sovova's model produced parameters that could not be accepted after a careful physical interpretation of the system'. The parameters identified in this study have a physical interpretation and are within the expected range.
 
 \citet{Rahimi2011} analysed the same dataset using the desorption-dissolution-diffusion model. To decrease the number of unknown parameters, \citet{Rahimi2011} applied a set of empirical correlations. The remaining parameters were determined using a genetic algorithm to solve the parameter estimation problem for each experiment individually. The results obtained by \citet{Rahimi2011} show that the desorption-dissolution-diffusion model fails to reproduce the yield data. The main difference between the model employed by \citet{Rahimi2011} and the one in this study is the $\gamma$ function. The $\gamma$ function increases the model's flexibility by adjusting $D_i$ and allows it to obtain a better fit.
+{\color{red}Comments 11 and 15} {\color{blue}The extra flexibility of the model is its main advantage compare to traditional desorption-dissolution-diffusion models commonly found in the literature. The model follow the same assumption and limitations as as desorption-dissolution-diffusion models with an additional assumption of the decaying internal diffusion coefficient. In case there is no decaying behaviour of $D_i$, then the decaying function mimic a linear decay with low slope, close to a parallel line. In the other words, the proposed model can imitate traditional desorption-dissolution-diffusion models. That extra flexibility comes with the cost of one extra parameter to be fitted, which in case of little dataset can leads to over-fitting. The models modification has not been derived from theoretical consideration, but from analysing different models available in the literature, such as the BIC model and Shrinking Core model. Considering that the proposed model should be categorized as semi-empirical model.}
 
 \citet{Povh2001} and \citet{Rahimi2011} delivered a set of independent parameters for every experiment. This work combines the parameters obtained from each experiment to obtain a single correlation valid for the whole range of investigated operating conditions.
 
@@ -756,60 +759,63 @@ They can be written as
 }
 
 The largest and smallest are the vapour and liquid phases, respectively. The middle one has no physical interpretation.
-\begin{comment}
+
 \newpage
-\begin{table*}[p]
-	\centering
-	\caption{Notation}
-	\label{tab::symbols}
-	\begin{tabular}{ |c|l|c| } 
-		\hline
-		Symbol 		& 	Description 							& Unit 						\\ \hline
-		$A$			&	cross-section							& $m^2$ 					\\ \hline
-		$c$			&	concentration in fluid phase			& $kg ~ m^{-3}$				\\ \hline
-		$Cp$		&	specific heat of the fluid				& $J ~ mol^{-1} ~ K^{-1}$ 	\\ \hline
-		$Cp_s$		&	specific heat of the solid				& $J ~ mol^{-1} ~ K^{-1}$ 	\\ \hline
-		$D_e^M$		&	axial mass diffusion coefficient		& $m^2 ~ s^{-1}$			\\ \hline
-		$D_e^T$		&	axial heat diffusion coefficient		& $m^2 ~ s^{-1}$			\\ \hline
-		$Di$		&	internal diffusion coefficient			& $m^2 ~ s^{-1}$			\\ \hline
-		$dp$		&	particle diameter						& $m$						\\ \hline
-		$F(t)$		&	mass flow-rate							& $kg ~ s^{-1}$				\\ \hline
-		$km$		&	partition coefficient					& $[-]$						\\ \hline
-		$k^T$		&	thermal conductivity					& $W ~ m^{-1} ~ K^{-1}$		\\ \hline
-		$l$			&	characteristic dimension				& $m$						\\ \hline
-		$L$			&	total length of the bed					& $m$						\\ \hline
-		$m$			&	mass of the oil in solid phase			& $kg$						\\ \hline
-		$m_0$		&	initial mass of the oil in solid phase	& $kg$						\\ \hline
-		$M_{CO_2}$	&	molecular mass of CO2					& $mol ~ kg^{-1}$			\\ \hline
-		$Np$		&	number of model parameters and control variables & $[-]$			\\ \hline
-		$N_{\theta}$&	number of model parameters				& $[-]$						\\ \hline
-		$Nu$		&	number of control variables				& $[-]$						\\ \hline
-		$Nz$		&	number of grid points in z-direction	& $[-]$						\\ \hline
-		$p$			&	vector of model parameters and control variables	& $[-]$			\\ \hline
-		$P(t)$		&	pressure								& $bar$						\\ \hline
-		$Pe$		&	Peclet's number							& $[-]$						\\ \hline
-		$q$			&	concentration in solid phase			& $kg ~ m^{-3}$				\\ \hline
-		$R$			&	gas constant							& $J ~ K^{-1} ~ mol^{-1}$	\\ \hline
-		$Re$		&	Reynolds number							& $[-]$						\\ \hline
-		$t$			&	time									& $s$						\\ \hline
-		$T$			&	temperature								& $K$						\\ \hline
-		$T_0$		&	initial temperature						& $K$						\\ \hline
-		$V$			&	volume of the extractor					& $m^3$						\\ \hline
-		$y$			&	yield	 								& $[-]$						\\ \hline
-		$z$			&	length									& $m$						\\ \hline
-		$Z$			&	compressibility	factor					& $[-]$						\\ \hline
-		$\epsilon$	&	void fraction							& $[-]$						\\ \hline
-		$\rho$		&	density of the fluid					& $kg ~ m^{-3}$				\\ \hline
-		$\rho_s$	&	solid density							& $kg ~ m^{-3}$				\\ \hline
-		$\mu$		&	shape coefficient						& $[-]$						\\ \hline
-		$\theta$	&	vector of model parameters				& $[-]$						\\ \hline
-		$\eta$		&	viscosity								& $cP$						\\ \hline				
-		& 											&							\\ \hline			
-		Subscript	& 											&							\\ \hline
-		$0$			&	initial conditions						& $[-]$						\\ \hline
-		$^*$		&	equilibrium conditions					& $[-]$						\\ \hline							
-	\end{tabular}
-\end{table*}
-\end{comment}
+
+\nomenclature[A]{\(P\)}{Pressure}
+\nomenclature[A]{\(T\)}{Temperature}
+\nomenclature[A]{\(T^{in}\)}{Inlet temperature}
+\nomenclature[A]{\(T^{out}\)}{Outlet temperature}
+\nomenclature[A]{\(F\)}{Mass flow rate}
+\nomenclature[A]{\(u\)}{Superfical velocity}
+\nomenclature[A]{\(v\)}{Linear velocity}
+\nomenclature[A]{\(z\)}{Spatial direction}
+\nomenclature[A]{\(e\)}{Internal energy}
+\nomenclature[A]{\(t\)}{Time}
+\nomenclature[A]{\(t_f\)}{Total extraction time}
+\nomenclature[A]{\(t_0\)}{Inital extraction time}
+\nomenclature[A]{\(A\)}{Total cross section of the bed}
+\nomenclature[A]{\(A_f\)}{Cross section of the bed accupied by the fluid}
+\nomenclature[A]{\(c_f\)}{Concentration of solute in fluid phase}
+\nomenclature[A]{\(c_{f0}\)}{Inital concentration of solute in fluid phase}
+\nomenclature[A]{\(c_f^*\)}{Concentration of solute at the solid-fluid interface}
+\nomenclature[A]{\(c_s\)}{Concentration of solute in solid phase}
+\nomenclature[A]{\(c_{s0}\)}{Inital concentration of solute in solid phase}
+\nomenclature[A]{\(c_s^*\)}{Concentration of solute at the solid-fluid interface}
+\nomenclature[A]{\(c_p\)}{Concentration of solute in the core of a pore}
+\nomenclature[A]{\(c_{pf}\)}{Concentration of solute in the pore opening}
+\nomenclature[A]{\(D_e^M\)}{Axial diffusion coefficeint}
+\nomenclature[A]{\(r_e\)}{Mass transfer kinetic term}
+\nomenclature[A]{\(L\)}{Length of fixed bed}
+\nomenclature[A]{\(\mathcal{L}\)}{Log-likelihood function}
+\nomenclature[A]{\(l\)}{Characterisitic diemsinon of particles}
+\nomenclature[A]{\(D_i\)}{Interanl diffusion coefficient}
+\nomenclature[A]{\(D_i^R\)}{Reference value of interanl diffusion coefficient}
+\nomenclature[A]{\(r\)}{Particle radius}
+\nomenclature[A]{\(k_p\)}{Volumetric partition coefficient}
+\nomenclature[A]{\(k_m\)}{Mass partition coefficient}
+\nomenclature[A]{\(y\)}{Extraction yield}
+\nomenclature[A]{\(Y\)}{Yield measurment}
+\nomenclature[A]{\(x\)}{State vector}
+\nomenclature[A]{\(G\)}{Vector of discretized differential equations}
+\nomenclature[A]{\(p\)}{Probaility disribution model}
+\nomenclature[A]{\(R_e\)}{Reynolds number}
+            
+\nomenclature[B]{\(\rho_f\)}{Fluid density}
+\nomenclature[B]{\(\Phi\)}{Bed porosity}
+\nomenclature[B]{\(\rho_s\)}{Bulk density of solid}
+\nomenclature[B]{\(\mu\)}{Sphericity coefficient}
+\nomenclature[B]{\(\gamma\)}{Decaying function}
+\nomenclature[B]{\(\Upsilon\)}{Decay coefficient}
+\nomenclature[B]{\(\Theta\)}{Paramter space}
+\nomenclature[B]{\(\theta\)}{vector of unknown parameters}
+\nomenclature[B]{\(\epsilon\)}{Unobervable error}
+\nomenclature[B]{\(\sigma\)}{Standard deviation}
+
+\nomenclature[C]{BIC}{Broke-and-Intact Cell model}
+\nomenclature[C]{MLE}{Maximum Likelihood Estimation}
+%\nomenclature[C]{SFE}{Supercritical Fluid Extraction}
+
+\printnomenclature
 
 \end{document}
