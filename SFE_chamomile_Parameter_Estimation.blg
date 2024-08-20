@@ -7,45 +7,45 @@ Reallocating 'name_of_file' (item size: 1) to 10 items.
 Database file #1: mybibfile.bib
 Warning--entry type for "Himmelblau1970" isn't style-file defined
 --line 671 of file mybibfile.bib
-You've used 20 entries,
+You've used 28 entries,
             2481 wiz_defined-function locations,
-            730 strings with 8450 characters,
-and the built_in function-call counts, 7771 in all, are:
-= -- 709
-> -- 338
-< -- 10
-+ -- 138
-- -- 98
-* -- 631
-:= -- 1258
-add.period$ -- 84
-call.type$ -- 20
-change.case$ -- 37
-chr.to.int$ -- 20
-cite$ -- 20
-duplicate$ -- 375
-empty$ -- 718
-format.name$ -- 122
-if$ -- 1630
+            796 strings with 10637 characters,
+and the built_in function-call counts, 11134 in all, are:
+= -- 1014
+> -- 510
+< -- 13
++ -- 204
+- -- 148
+* -- 929
+:= -- 1816
+add.period$ -- 124
+call.type$ -- 28
+change.case$ -- 53
+chr.to.int$ -- 28
+cite$ -- 28
+duplicate$ -- 527
+empty$ -- 1005
+format.name$ -- 184
+if$ -- 2333
 int.to.chr$ -- 1
-int.to.str$ -- 21
-missing$ -- 22
-newline$ -- 132
-num.names$ -- 60
-pop$ -- 137
+int.to.str$ -- 29
+missing$ -- 30
+newline$ -- 188
+num.names$ -- 84
+pop$ -- 177
 preamble$ -- 1
-purify$ -- 20
+purify$ -- 28
 quote$ -- 0
-skip$ -- 210
+skip$ -- 287
 stack$ -- 0
-substring$ -- 406
-swap$ -- 40
+substring$ -- 569
+swap$ -- 64
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 131
+type$ -- 187
 warning$ -- 0
-while$ -- 71
+while$ -- 98
 width$ -- 0
-write$ -- 311
+write$ -- 447
 (There was 1 warning)

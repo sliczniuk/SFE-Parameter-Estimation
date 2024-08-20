@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2024.1.12)  12 AUG 2024 16:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2024.1.12)  20 AUG 2024 17:37
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1666,37 +1666,11 @@ File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
 (Font)              scaled to size 6.80005pt on input line 136.
-
-Overfull \hbox (1.75552pt too wide) in paragraph at lines 148--149
-\T1/stix/m/n/10 de-scribe the ex-trac-tion of valu-able com-pounds from biomass
-.
- []
-
-
-Overfull \hbox (13.94133pt too wide) in paragraph at lines 152--153
-[]\T1/stix/m/n/10 The Broken-and-Intact Cell model, pro-posed by Sovova$[]$$[]$
-$[]$,
- []
-
-
-Overfull \hbox (9.90552pt too wide) in paragraph at lines 156--157
-\T1/stix/m/n/10 equa-tions to de-velop a com-pre-hen-sive model for the chamomi
-le
- []
-
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 1
-58.
-(C:\Users\sliczno1\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmss.fd
+55.
+ (C:\Users\sliczno1\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmss.fd
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-
-pdfTeX warning: pdflatex (file ./Figures/PFD.drawio.pdf): PDF inclusion: found 
-PDF version <1.7>, but at most version <1.5> allowed
-<Figures/PFD.drawio.pdf, id=91, 871.33525pt x 336.29637pt>
-File: Figures/PFD.drawio.pdf Graphic file (type pdf)
-<use Figures/PFD.drawio.pdf>
-Package pdftex.def Info: Figures/PFD.drawio.pdf  used on input line 160.
-(pdftex.def)             Requested size: 238.25444pt x 91.95581pt.
 [1{C:/Users/sliczno1/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users
 /sliczno1/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/stix/stix-t1.enc}
 
@@ -1704,209 +1678,278 @@ Package pdftex.def Info: Figures/PFD.drawio.pdf  used on input line 160.
 {C:/Users/sliczno1/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4
 -t1-0.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t1.enc} <.
 /thumbnails/cas-email.jpeg>]
-Underfull \hbox (badness 1028) in paragraph at lines 174--175
-[]\T1/stix/m/n/10 Following the work of An-der-son$[]$$[]$$[]$, the gov-ern-ing
-
+Overfull \hbox (1.75552pt too wide) in paragraph at lines 156--157
+\T1/stix/m/n/10 de-scribe the ex-trac-tion of valu-able com-pounds from biomass
+.
  []
 
+
+Overfull \hbox (17.69133pt too wide) in paragraph at lines 160--161
+[]\T1/stix/m/n/10 The Broken-and-Intact Cell model, pro-posed by Sovova$[]$$[]$
+$[]$,
+ []
+
+
+Overfull \hbox (1.74052pt too wide) in paragraph at lines 162--163
+[]\T1/stix/m/n/10 Reverchon$[]$$[]$$[]$ for-mu-lated a fluid-solid ex-trac-tion
+ model
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 164--165
+\T1/stix/m/n/10 gested by Rever-chon$[]$$[]$$[]$, de-riv-ing fun-da-men-tal gov
+-ern-
+ []
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 164--165
+\T1/stix/m/n/10 chamomile oil ex-trac-tion pro-cess. This model aims for
+ []
+
+
+Underfull \hbox (badness 1924) in paragraph at lines 164--165
+\T1/stix/m/n/10 control-oriented sim-plic-ity, as-sum-ing a semi-continuous
+ []
+
+
+
+pdfTeX warning: pdflatex (file ./Figures/PFD.drawio.pdf): PDF inclusion: found 
+PDF version <1.7>, but at most version <1.5> allowed
+<Figures/PFD.drawio.pdf, id=127, 871.33525pt x 336.29637pt>
+File: Figures/PFD.drawio.pdf Graphic file (type pdf)
+<use Figures/PFD.drawio.pdf>
+Package pdftex.def Info: Figures/PFD.drawio.pdf  used on input line 168.
+(pdftex.def)             Requested size: 238.25444pt x 91.95581pt.
 [2 <./Figures/PFD.drawio.pdf>]
-<Figures/SFE_PFD.drawio.png, id=162, 8222.72pt x 4626.28375pt>
+<Figures/SFE_PFD.drawio.png, id=178, 8222.72pt x 4626.28375pt>
 File: Figures/SFE_PFD.drawio.png Graphic file (type png)
 <use Figures/SFE_PFD.drawio.png>
-Package pdftex.def Info: Figures/SFE_PFD.drawio.png  used on input line 263.
+Package pdftex.def Info: Figures/SFE_PFD.drawio.png  used on input line 271.
 (pdftex.def)             Requested size: 202.51772pt x 156.9374pt.
  [3 <./Figures/SFE_PFD.drawio.png>] [4]
-<Figures///Results_estimation/Parameter_Space_Linear_Dataset_1.png, id=223, 388
+<Figures///Results_estimation/Parameter_Space_Linear_Dataset_1.png, id=237, 388
 .3308pt x 298.2342pt>
 File: Figures///Results_estimation/Parameter_Space_Linear_Dataset_1.png Graphic
  file (type png)
 <use Figures///Results_estimation/Parameter_Space_Linear_Dataset_1.png>
 Package pdftex.def Info: Figures///Results_estimation/Parameter_Space_Linear_Da
-taset_1.png  used on input line 472.
+taset_1.png  used on input line 480.
 (pdftex.def)             Requested size: 214.42754pt x 164.6755pt.
-<Figures///Results_estimation/Parameter_space_Di_Gamma_dataset_1_org.png, id=22
-5, 389.7762pt x 295.1025pt>
+<Figures///Results_estimation/Parameter_space_Di_Gamma_dataset_1_org.png, id=23
+9, 389.7762pt x 295.1025pt>
 File: Figures///Results_estimation/Parameter_space_Di_Gamma_dataset_1_org.png G
 raphic file (type png)
 <use Figures///Results_estimation/Parameter_space_Di_Gamma_dataset_1_org.png>
 Package pdftex.def Info: Figures///Results_estimation/Parameter_space_Di_Gamma_
-dataset_1_org.png  used on input line 479.
+dataset_1_org.png  used on input line 487.
 (pdftex.def)             Requested size: 214.42754pt x 162.34738pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures///Results_estimation/Fit_Di_Gamma_1_4_1.png, id=231, 423.5022pt x 311.
+<Figures///Results_estimation/Fit_Di_Gamma_1_4_1.png, id=245, 423.5022pt x 311.
 2428pt>
 File: Figures///Results_estimation/Fit_Di_Gamma_1_4_1.png Graphic file (type pn
 g)
 <use Figures///Results_estimation/Fit_Di_Gamma_1_4_1.png>
 Package pdftex.def Info: Figures///Results_estimation/Fit_Di_Gamma_1_4_1.png  u
-sed on input line 503.
+sed on input line 511.
 (pdftex.def)             Requested size: 214.42754pt x 157.58717pt.
-<Figures///Results_estimation/Fit_Di_Gamma_5_8_1.png, id=233, 423.5022pt x 311.
+<Figures///Results_estimation/Fit_Di_Gamma_5_8_1.png, id=247, 423.5022pt x 311.
 2428pt>
 File: Figures///Results_estimation/Fit_Di_Gamma_5_8_1.png Graphic file (type pn
 g)
 <use Figures///Results_estimation/Fit_Di_Gamma_5_8_1.png>
 Package pdftex.def Info: Figures///Results_estimation/Fit_Di_Gamma_5_8_1.png  u
-sed on input line 510.
+sed on input line 518.
 (pdftex.def)             Requested size: 214.42754pt x 157.58717pt.
-<Figures///Results_estimation/Fit_Di_Gamma_9_12_1.png, id=235, 423.5022pt x 311
+<Figures///Results_estimation/Fit_Di_Gamma_9_12_1.png, id=249, 423.5022pt x 311
 .2428pt>
 File: Figures///Results_estimation/Fit_Di_Gamma_9_12_1.png Graphic file (type p
 ng)
 <use Figures///Results_estimation/Fit_Di_Gamma_9_12_1.png>
 Package pdftex.def Info: Figures///Results_estimation/Fit_Di_Gamma_9_12_1.png  
-used on input line 517.
+used on input line 525.
 (pdftex.def)             Requested size: 214.42754pt x 157.58717pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[5 <./Figures///Results_estimation/Parameter_Space_Linear_Dataset_1.png (PNG co
-py)> <./Figures///Results_estimation/Parameter_space_Di_Gamma_dataset_1_org.png
- (PNG copy)>]
-<Figures///Results_estimation/Correlation_Di_Re_1.png, id=249, 370.5042pt x 299
+[5]
+<Figures///Results_estimation/Correlation_Di_Re_1.png, id=265, 370.5042pt x 299
 .6796pt>
 File: Figures///Results_estimation/Correlation_Di_Re_1.png Graphic file (type p
 ng)
 <use Figures///Results_estimation/Correlation_Di_Re_1.png>
 Package pdftex.def Info: Figures///Results_estimation/Correlation_Di_Re_1.png  
-used on input line 533.
+used on input line 541.
 (pdftex.def)             Requested size: 214.42754pt x 173.43932pt.
-<Figures///Results_estimation/Correlation_Gamma_Re_1.png, id=251, 370.986pt x 2
+<Figures///Results_estimation/Correlation_Gamma_Re_1.png, id=267, 370.986pt x 2
 99.6796pt>
 File: Figures///Results_estimation/Correlation_Gamma_Re_1.png Graphic file (typ
 e png)
 <use Figures///Results_estimation/Correlation_Gamma_Re_1.png>
 Package pdftex.def Info: Figures///Results_estimation/Correlation_Gamma_Re_1.pn
-g  used on input line 540.
+g  used on input line 548.
 (pdftex.def)             Requested size: 214.42754pt x 173.21068pt.
-<Figures///Results_estimation/Di_Re_F_1.png, id=255, 373.8768pt x 273.1806pt>
-File: Figures///Results_estimation/Di_Re_F_1.png Graphic file (type png)
-<use Figures///Results_estimation/Di_Re_F_1.png>
-Package pdftex.def Info: Figures///Results_estimation/Di_Re_F_1.png  used on in
-put line 554.
-(pdftex.def)             Requested size: 214.42754pt x 156.67328pt.
-<Figures///Results_estimation/Gamma_Re_F_1.png, id=257, 370.5042pt x 291.489pt>
-
-File: Figures///Results_estimation/Gamma_Re_F_1.png Graphic file (type png)
-<use Figures///Results_estimation/Gamma_Re_F_1.png>
-Package pdftex.def Info: Figures///Results_estimation/Gamma_Re_F_1.png  used on
- input line 561.
-(pdftex.def)             Requested size: 214.42754pt x 168.69902pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6 <./Figures///Results_estimation/Fit_Di_Gamma_1_4_1.png> <./Figures///Results
-_estimation/Fit_Di_Gamma_5_8_1.png> <./Figures///Results_estimation/Fit_Di_Gamm
-a_9_12_1.png> <./Figures///Results_estimation/Correlation_Di_Re_1.png> <./Figur
-es///Results_estimation/Correlation_Gamma_Re_1.png>]
-<Figures///Results_estimation/Fit_Di_Gamma_1_4_correlation_1.png, id=283, 423.5
+<Figures///Results_estimation/Di_Re_F_1.png, id=271, 373.8768pt x 273.1806pt>
+File: Figures///Results_estimation/Di_Re_F_1.png Graphic file (type png)
+<use Figures///Results_estimation/Di_Re_F_1.png>
+Package pdftex.def Info: Figures///Results_estimation/Di_Re_F_1.png  used on in
+put line 562.
+(pdftex.def)             Requested size: 214.42754pt x 156.67328pt.
+<Figures///Results_estimation/Gamma_Re_F_1.png, id=273, 370.5042pt x 291.489pt>
+
+File: Figures///Results_estimation/Gamma_Re_F_1.png Graphic file (type png)
+<use Figures///Results_estimation/Gamma_Re_F_1.png>
+Package pdftex.def Info: Figures///Results_estimation/Gamma_Re_F_1.png  used on
+ input line 569.
+(pdftex.def)             Requested size: 214.42754pt x 168.69902pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[6 <./Figures///Results_estimation/Parameter_Space_Linear_Dataset_1.png (PNG co
+py)> <./Figures///Results_estimation/Parameter_space_Di_Gamma_dataset_1_org.png
+ (PNG copy)> <./Figures///Results_estimation/Fit_Di_Gamma_1_4_1.png> <./Figures
+///Results_estimation/Fit_Di_Gamma_5_8_1.png> <./Figures///Results_estimation/F
+it_Di_Gamma_9_12_1.png>]
+<Figures///Results_estimation/Fit_Di_Gamma_1_4_correlation_1.png, id=297, 423.5
 022pt x 311.2428pt>
 File: Figures///Results_estimation/Fit_Di_Gamma_1_4_correlation_1.png Graphic f
 ile (type png)
 <use Figures///Results_estimation/Fit_Di_Gamma_1_4_correlation_1.png>
 Package pdftex.def Info: Figures///Results_estimation/Fit_Di_Gamma_1_4_correlat
-ion_1.png  used on input line 575.
+ion_1.png  used on input line 583.
 (pdftex.def)             Requested size: 214.42754pt x 157.58717pt.
-<Figures///Results_estimation/Fit_Di_Gamma_5_8_correlation_1.png, id=285, 423.5
+<Figures///Results_estimation/Fit_Di_Gamma_5_8_correlation_1.png, id=299, 423.5
 022pt x 311.2428pt>
 File: Figures///Results_estimation/Fit_Di_Gamma_5_8_correlation_1.png Graphic f
 ile (type png)
 <use Figures///Results_estimation/Fit_Di_Gamma_5_8_correlation_1.png>
 Package pdftex.def Info: Figures///Results_estimation/Fit_Di_Gamma_5_8_correlat
-ion_1.png  used on input line 582.
+ion_1.png  used on input line 590.
 (pdftex.def)             Requested size: 214.42754pt x 157.58717pt.
-<Figures///Results_estimation/Fit_Di_Gamma_9_12_correlation_1.png, id=287, 423.
+<Figures///Results_estimation/Fit_Di_Gamma_9_12_correlation_1.png, id=301, 423.
 5022pt x 311.2428pt>
 File: Figures///Results_estimation/Fit_Di_Gamma_9_12_correlation_1.png Graphic 
 file (type png)
 <use Figures///Results_estimation/Fit_Di_Gamma_9_12_correlation_1.png>
 Package pdftex.def Info: Figures///Results_estimation/Fit_Di_Gamma_9_12_correla
-tion_1.png  used on input line 589.
+tion_1.png  used on input line 597.
 (pdftex.def)             Requested size: 214.42754pt x 157.58717pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 1701) in paragraph at lines 599--601
+Underfull \hbox (badness 1701) in paragraph at lines 607--609
 []\T1/stix/m/n/10 Rahimi et al.$[]$$[]$$[]$ anal-ysed the same dataset us-ing
  []
 
 
-Underfull \hbox (badness 1281) in paragraph at lines 599--601
-\T1/stix/m/n/10 ad-van-tage com-pare to tra-di-tional desorption-dissolution-
+Underfull \hbox (badness 1742) in paragraph at lines 607--609
+\T1/stix/m/n/10 as these tra-di-tional mod-els, it in-tro-duces an ad-di-tional
+
  []
 
 
-Underfull \hbox (badness 1057) in paragraph at lines 599--601
-\T1/stix/m/n/10 That ex-tra flex-i-bil-ity comes with the cost of one ex-tra
+Underfull \hbox (badness 1286) in paragraph at lines 607--609
+\T1/stix/m/n/10 as-sump-tion: a de-cay-ing in-ter-nal dif-fu-sion co-ef-fi-cien
+t. If
  []
 
-[7 <./Figures///Results_estimation/Di_Re_F_1.png> <./Figures///Results_estimati
-on/Gamma_Re_F_1.png> <./Figures///Results_estimation/Fit_Di_Gamma_1_4_correlati
-on_1.png> <./Figures///Results_estimation/Fit_Di_Gamma_5_8_correlation_1.png> <
-./Figures///Results_estimation/Fit_Di_Gamma_9_12_correlation_1.png>]
-(SFE_chamomile_Parameter_Estimation.bbl
-Underfull \hbox (badness 1014) in paragraph at lines 34--39
+
+Underfull \hbox (badness 1132) in paragraph at lines 607--609
+\T1/stix/m/n/10 a lin-ear de-cay with a low slope, ef-fec-tively mim-ick-ing
+ []
+
+
+Underfull \hbox (badness 3229) in paragraph at lines 607--609
+\T1/stix/m/n/10 tra-di-tional desorption-dissolution-diffusion mod-els. This
+ []
+
+[7 <./Figures///Results_estimation/Correlation_Di_Re_1.png> <./Figures///Result
+s_estimation/Correlation_Gamma_Re_1.png> <./Figures///Results_estimation/Di_Re_
+F_1.png> <./Figures///Results_estimation/Gamma_Re_F_1.png>] [8 <./Figures///Res
+ults_estimation/Fit_Di_Gamma_1_4_correlation_1.png> <./Figures///Results_estima
+tion/Fit_Di_Gamma_5_8_correlation_1.png> <./Figures///Results_estimation/Fit_Di
+_Gamma_9_12_correlation_1.png>] (SFE_chamomile_Parameter_Estimation.bbl
+Underfull \hbox (badness 1117) in paragraph at lines 30--38
+\T1/stix/m/n/8 Ex-per-i-men-tal study of ke-to-cona-zole im-preg-na-tion into p
+olyvinyl
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--67
+[]\T1/stix/m/n/8 Nedasadat Saa-dati Ardestani, Gho-lamhos-sein Sode-ifian, and
+ []
+
+
+Underfull \hbox (badness 3601) in paragraph at lines 70--76
+[]\T1/stix/m/n/8 Gholamhossein Sode-ifian, Seyed Ali Sa-ja-dian, and Reza De-r-
+
+ []
+
+
+Underfull \hbox (badness 1014) in paragraph at lines 87--92
 []\T1/stix/m/n/8 E. Rever-chon, G. Donsi, and L.S. Os-seo.  Mod-el-ing of su-pe
 r-
  []
 
 
-Underfull \hbox (badness 1472) in paragraph at lines 55--59
+Underfull \hbox (badness 1472) in paragraph at lines 133--137
 []\T1/stix/m/n/8 J. An-der-son.  |   []   |   []   |   []   |   []   |   []   |
    []   |   []
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 61--65
+Underfull \hbox (badness 1371) in paragraph at lines 139--143
 []\T1/stix/m/n/8 J. An-der-son and Ch. Cadou.  |   []   |   []   |   [].
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+stix on input line 
-70.
+148.
 (C:\Users\sliczno1\AppData\Local\Programs\MiKTeX\tex/latex/stix\ts1stix.fd
 File: ts1stix.fd 2015/04/17 v1.1.2-latex STIX TS1 font definitions
 )
-Underfull \hbox (badness 1990) in paragraph at lines 67--72
+Underfull \hbox (badness 1990) in paragraph at lines 145--150
 |   []   |   []   |   []\T1/stix/m/n/8 , 61(8):1362--1365, 1984.  doi: $10 . 10
 07 /
  []
 
 
-Underfull \hbox (badness 1237) in paragraph at lines 97--102
+Underfull \hbox (badness 1237) in paragraph at lines 175--180
 |   []\T1/stix/m/n/8 , 49(15):2499--2505, 1994.  doi: $10 . 1016 / 0009-[]2509(
 94 )
  []
 
 
-Underfull \hbox (badness 1859) in paragraph at lines 151--155
+Underfull \hbox (badness 1859) in paragraph at lines 229--233
 []\T1/stix/m/n/8 J. Gmehling, M. Kleiber, B. Kolbe, and J. Rarey.  |   []
  []
 
-) [8{C:/Users/sliczno1/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/stix/stix-
+) [9{C:/Users/sliczno1/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/stix/stix-
 ts1.enc}]
-Underfull \hbox (badness 1558) in paragraph at lines 692--693
+Underfull \hbox (badness 1558) in paragraph at lines 702--703
 []\T1/stix/m/n/10 If the Peng-Robinson equa-tion of state (Peng and
  []
 
-[9
+[10
 
-] (SFE_chamomile_Parameter_Estimation.nls) [10]
+] (SFE_chamomile_Parameter_Estimation.nls) [11]
 (SFE_chamomile_Parameter_Estimation.aux)
 Package rerunfilecheck Info: File `SFE_chamomile_Parameter_Estimation.out' has 
 not changed.
 (rerunfilecheck)             Checksum: BF3A54033F1FF9258B06057B76F5EFD7;3154.
  ) 
 Here is how much of TeX's memory you used:
- 43312 strings out of 478848
- 941390 string characters out of 2848485
- 1383986 words of memory out of 3000000
- 60273 multiletter control sequences out of 15000+600000
+ 43345 strings out of 478848
+ 942021 string characters out of 2848485
+ 1387986 words of memory out of 3000000
+ 60297 multiletter control sequences out of 15000+600000
  508505 words of font info for 157 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  110i,26n,131p,1298b,710s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1926,10 +1969,10 @@ e1/public/stix/stix-mathit.pfb><C:/Users/sliczno1/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/stix/stix-mathrm.pfb><C:/Users/sliczno1/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/stix/stix-mathscr.pfb><C:/Users/sliczno1/AppData/
 Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathsf.pfb>
-Output written on SFE_chamomile_Parameter_Estimation.pdf (10 pages, 1915388 byt
+Output written on SFE_chamomile_Parameter_Estimation.pdf (11 pages, 1925818 byt
 es).
 PDF statistics:
- 438 PDF objects out of 1000 (max. 8388607)
- 91 named destinations out of 1000 (max. 500000)
+ 461 PDF objects out of 1000 (max. 8388607)
+ 100 named destinations out of 1000 (max. 500000)
  318 words of extra memory for PDF output out of 10000 (max. 10000000)
 
