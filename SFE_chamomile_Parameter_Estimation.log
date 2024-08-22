@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2024.1.12)  20 AUG 2024 17:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2024.1.12)  22 AUG 2024 15:53
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1667,7 +1667,7 @@ File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
 (Font)              scaled to size 6.80005pt on input line 136.
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 1
-55.
+56.
  (C:\Users\sliczno1\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmss.fd
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
@@ -1721,67 +1721,69 @@ File: Figures/PFD.drawio.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/PFD.drawio.pdf  used on input line 168.
 (pdftex.def)             Requested size: 238.25444pt x 91.95581pt.
 [2 <./Figures/PFD.drawio.pdf>]
-<Figures/SFE_PFD.drawio.png, id=178, 8222.72pt x 4626.28375pt>
+<Figures/SFE_PFD.drawio.png, id=175, 8222.72pt x 4626.28375pt>
 File: Figures/SFE_PFD.drawio.png Graphic file (type png)
 <use Figures/SFE_PFD.drawio.png>
-Package pdftex.def Info: Figures/SFE_PFD.drawio.png  used on input line 271.
+Package pdftex.def Info: Figures/SFE_PFD.drawio.png  used on input line 273.
 (pdftex.def)             Requested size: 202.51772pt x 156.9374pt.
  [3 <./Figures/SFE_PFD.drawio.png>] [4]
-<Figures///Results_estimation/Parameter_Space_Linear_Dataset_1.png, id=237, 388
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures///Results_estimation/Parameter_Space_Linear_Dataset_1.png, id=236, 388
 .3308pt x 298.2342pt>
 File: Figures///Results_estimation/Parameter_Space_Linear_Dataset_1.png Graphic
  file (type png)
 <use Figures///Results_estimation/Parameter_Space_Linear_Dataset_1.png>
 Package pdftex.def Info: Figures///Results_estimation/Parameter_Space_Linear_Da
-taset_1.png  used on input line 480.
+taset_1.png  used on input line 482.
 (pdftex.def)             Requested size: 214.42754pt x 164.6755pt.
 <Figures///Results_estimation/Parameter_space_Di_Gamma_dataset_1_org.png, id=23
-9, 389.7762pt x 295.1025pt>
+8, 389.7762pt x 295.1025pt>
 File: Figures///Results_estimation/Parameter_space_Di_Gamma_dataset_1_org.png G
 raphic file (type png)
 <use Figures///Results_estimation/Parameter_space_Di_Gamma_dataset_1_org.png>
 Package pdftex.def Info: Figures///Results_estimation/Parameter_space_Di_Gamma_
-dataset_1_org.png  used on input line 487.
+dataset_1_org.png  used on input line 489.
 (pdftex.def)             Requested size: 214.42754pt x 162.34738pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures///Results_estimation/Fit_Di_Gamma_1_4_1.png, id=245, 423.5022pt x 311.
+<Figures///Results_estimation/Fit_Di_Gamma_1_4_1.png, id=244, 423.5022pt x 311.
 2428pt>
 File: Figures///Results_estimation/Fit_Di_Gamma_1_4_1.png Graphic file (type pn
 g)
 <use Figures///Results_estimation/Fit_Di_Gamma_1_4_1.png>
 Package pdftex.def Info: Figures///Results_estimation/Fit_Di_Gamma_1_4_1.png  u
-sed on input line 511.
+sed on input line 513.
 (pdftex.def)             Requested size: 214.42754pt x 157.58717pt.
-<Figures///Results_estimation/Fit_Di_Gamma_5_8_1.png, id=247, 423.5022pt x 311.
+<Figures///Results_estimation/Fit_Di_Gamma_5_8_1.png, id=246, 423.5022pt x 311.
 2428pt>
 File: Figures///Results_estimation/Fit_Di_Gamma_5_8_1.png Graphic file (type pn
 g)
 <use Figures///Results_estimation/Fit_Di_Gamma_5_8_1.png>
 Package pdftex.def Info: Figures///Results_estimation/Fit_Di_Gamma_5_8_1.png  u
-sed on input line 518.
+sed on input line 520.
 (pdftex.def)             Requested size: 214.42754pt x 157.58717pt.
-<Figures///Results_estimation/Fit_Di_Gamma_9_12_1.png, id=249, 423.5022pt x 311
+<Figures///Results_estimation/Fit_Di_Gamma_9_12_1.png, id=248, 423.5022pt x 311
 .2428pt>
 File: Figures///Results_estimation/Fit_Di_Gamma_9_12_1.png Graphic file (type p
 ng)
 <use Figures///Results_estimation/Fit_Di_Gamma_9_12_1.png>
 Package pdftex.def Info: Figures///Results_estimation/Fit_Di_Gamma_9_12_1.png  
-used on input line 525.
+used on input line 527.
 (pdftex.def)             Requested size: 214.42754pt x 157.58717pt.
+[5]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[5]
 <Figures///Results_estimation/Correlation_Di_Re_1.png, id=265, 370.5042pt x 299
 .6796pt>
 File: Figures///Results_estimation/Correlation_Di_Re_1.png Graphic file (type p
 ng)
 <use Figures///Results_estimation/Correlation_Di_Re_1.png>
 Package pdftex.def Info: Figures///Results_estimation/Correlation_Di_Re_1.png  
-used on input line 541.
+used on input line 543.
 (pdftex.def)             Requested size: 214.42754pt x 173.43932pt.
 <Figures///Results_estimation/Correlation_Gamma_Re_1.png, id=267, 370.986pt x 2
 99.6796pt>
@@ -1789,9 +1791,8 @@ File: Figures///Results_estimation/Correlation_Gamma_Re_1.png Graphic file (typ
 e png)
 <use Figures///Results_estimation/Correlation_Gamma_Re_1.png>
 Package pdftex.def Info: Figures///Results_estimation/Correlation_Gamma_Re_1.pn
-g  used on input line 548.
+g  used on input line 550.
 (pdftex.def)             Requested size: 214.42754pt x 173.21068pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1799,75 +1800,74 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: Figures///Results_estimation/Di_Re_F_1.png Graphic file (type png)
 <use Figures///Results_estimation/Di_Re_F_1.png>
 Package pdftex.def Info: Figures///Results_estimation/Di_Re_F_1.png  used on in
-put line 562.
+put line 564.
 (pdftex.def)             Requested size: 214.42754pt x 156.67328pt.
 <Figures///Results_estimation/Gamma_Re_F_1.png, id=273, 370.5042pt x 291.489pt>
 
 File: Figures///Results_estimation/Gamma_Re_F_1.png Graphic file (type png)
 <use Figures///Results_estimation/Gamma_Re_F_1.png>
 Package pdftex.def Info: Figures///Results_estimation/Gamma_Re_F_1.png  used on
- input line 569.
+ input line 571.
 (pdftex.def)             Requested size: 214.42754pt x 168.69902pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 [6 <./Figures///Results_estimation/Parameter_Space_Linear_Dataset_1.png (PNG co
 py)> <./Figures///Results_estimation/Parameter_space_Di_Gamma_dataset_1_org.png
  (PNG copy)> <./Figures///Results_estimation/Fit_Di_Gamma_1_4_1.png> <./Figures
 ///Results_estimation/Fit_Di_Gamma_5_8_1.png> <./Figures///Results_estimation/F
 it_Di_Gamma_9_12_1.png>]
-<Figures///Results_estimation/Fit_Di_Gamma_1_4_correlation_1.png, id=297, 423.5
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Figures///Results_estimation/Fit_Di_Gamma_1_4_correlation_1.png, id=296, 423.5
 022pt x 311.2428pt>
 File: Figures///Results_estimation/Fit_Di_Gamma_1_4_correlation_1.png Graphic f
 ile (type png)
 <use Figures///Results_estimation/Fit_Di_Gamma_1_4_correlation_1.png>
 Package pdftex.def Info: Figures///Results_estimation/Fit_Di_Gamma_1_4_correlat
-ion_1.png  used on input line 583.
+ion_1.png  used on input line 585.
 (pdftex.def)             Requested size: 214.42754pt x 157.58717pt.
-<Figures///Results_estimation/Fit_Di_Gamma_5_8_correlation_1.png, id=299, 423.5
+<Figures///Results_estimation/Fit_Di_Gamma_5_8_correlation_1.png, id=298, 423.5
 022pt x 311.2428pt>
 File: Figures///Results_estimation/Fit_Di_Gamma_5_8_correlation_1.png Graphic f
 ile (type png)
 <use Figures///Results_estimation/Fit_Di_Gamma_5_8_correlation_1.png>
 Package pdftex.def Info: Figures///Results_estimation/Fit_Di_Gamma_5_8_correlat
-ion_1.png  used on input line 590.
+ion_1.png  used on input line 592.
 (pdftex.def)             Requested size: 214.42754pt x 157.58717pt.
-<Figures///Results_estimation/Fit_Di_Gamma_9_12_correlation_1.png, id=301, 423.
+<Figures///Results_estimation/Fit_Di_Gamma_9_12_correlation_1.png, id=300, 423.
 5022pt x 311.2428pt>
 File: Figures///Results_estimation/Fit_Di_Gamma_9_12_correlation_1.png Graphic 
 file (type png)
 <use Figures///Results_estimation/Fit_Di_Gamma_9_12_correlation_1.png>
 Package pdftex.def Info: Figures///Results_estimation/Fit_Di_Gamma_9_12_correla
-tion_1.png  used on input line 597.
+tion_1.png  used on input line 599.
 (pdftex.def)             Requested size: 214.42754pt x 157.58717pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 1701) in paragraph at lines 607--609
+Underfull \hbox (badness 1701) in paragraph at lines 609--611
 []\T1/stix/m/n/10 Rahimi et al.$[]$$[]$$[]$ anal-ysed the same dataset us-ing
  []
 
 
-Underfull \hbox (badness 1742) in paragraph at lines 607--609
+Underfull \hbox (badness 1742) in paragraph at lines 609--611
 \T1/stix/m/n/10 as these tra-di-tional mod-els, it in-tro-duces an ad-di-tional
 
  []
 
 
-Underfull \hbox (badness 1286) in paragraph at lines 607--609
+Underfull \hbox (badness 1286) in paragraph at lines 609--611
 \T1/stix/m/n/10 as-sump-tion: a de-cay-ing in-ter-nal dif-fu-sion co-ef-fi-cien
 t. If
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 607--609
+Underfull \hbox (badness 1132) in paragraph at lines 609--611
 \T1/stix/m/n/10 a lin-ear de-cay with a low slope, ef-fec-tively mim-ick-ing
  []
 
 
-Underfull \hbox (badness 3229) in paragraph at lines 607--609
+Underfull \hbox (badness 3229) in paragraph at lines 609--611
 \T1/stix/m/n/10 tra-di-tional desorption-dissolution-diffusion mod-els. This
  []
 
@@ -1933,7 +1933,7 @@ Underfull \hbox (badness 1859) in paragraph at lines 229--233
 
 ) [9{C:/Users/sliczno1/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/stix/stix-
 ts1.enc}]
-Underfull \hbox (badness 1558) in paragraph at lines 702--703
+Underfull \hbox (badness 1558) in paragraph at lines 704--705
 []\T1/stix/m/n/10 If the Peng-Robinson equa-tion of state (Peng and
  []
 
@@ -1969,7 +1969,7 @@ e1/public/stix/stix-mathit.pfb><C:/Users/sliczno1/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/stix/stix-mathrm.pfb><C:/Users/sliczno1/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/stix/stix-mathscr.pfb><C:/Users/sliczno1/AppData/
 Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathsf.pfb>
-Output written on SFE_chamomile_Parameter_Estimation.pdf (11 pages, 1925818 byt
+Output written on SFE_chamomile_Parameter_Estimation.pdf (11 pages, 1926209 byt
 es).
 PDF statistics:
  461 PDF objects out of 1000 (max. 8388607)
