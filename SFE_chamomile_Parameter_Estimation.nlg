@@ -7,8 +7,8 @@ Scanning style file C:/Program Files/MiKTeX/makeindex/nomencl/nomencl.ist.......
 ** Input style error (file = C:/Program Files/MiKTeX/makeindex/nomencl/nomencl.ist, line = 38):
    -- Unknown specifier lethead_flag.
 ....done (12 attributes redefined, 3 ignored).
-Scanning input file SFE_chamomile_Parameter_Estimation.nlo....done (50 entries accepted, 0 rejected).
-Sorting entries....done (288 comparisons).
-Generating output file SFE_chamomile_Parameter_Estimation.nls....done (57 lines written, 0 warnings).
+Scanning input file SFE_chamomile_Parameter_Estimation.nlo....done (53 entries accepted, 0 rejected).
+Sorting entries....done (304 comparisons).
+Generating output file SFE_chamomile_Parameter_Estimation.nls....done (60 lines written, 0 warnings).
 Output written in SFE_chamomile_Parameter_Estimation.nls.
 Transcript written in SFE_chamomile_Parameter_Estimation.nlg.

@@ -1,57 +1,60 @@
 
 \begin{thenomenclature} 
 \nomgroup{A}
-  \item [{\(\mathcal{L}\)}]\begingroup Log-likelihood function\nomeqref {29}\nompageref{10}
-  \item [{\(A\)}]\begingroup Total cross section of the bed\nomeqref {29}\nompageref{10}
-  \item [{\(A_f\)}]\begingroup Cross section of the bed accupied by the fluid\nomeqref {29}\nompageref{10}
-  \item [{\(c_f\)}]\begingroup Concentration of solute in fluid phase\nomeqref {29}\nompageref{10}
-  \item [{\(c_f^*\)}]\begingroup Concentration of solute at the solid-fluid interface\nomeqref {29}\nompageref{10}
-  \item [{\(c_p\)}]\begingroup Concentration of solute in the core of a pore\nomeqref {29}\nompageref{10}
-  \item [{\(c_s\)}]\begingroup Concentration of solute in solid phase\nomeqref {29}\nompageref{10}
-  \item [{\(c_s^*\)}]\begingroup Concentration of solute at the solid-fluid interface\nomeqref {29}\nompageref{10}
-  \item [{\(c_{f0}\)}]\begingroup Inital concentration of solute in fluid phase\nomeqref {29}\nompageref{10}
-  \item [{\(c_{pf}\)}]\begingroup Concentration of solute in the pore opening\nomeqref {29}\nompageref{10}
-  \item [{\(c_{s0}\)}]\begingroup Inital concentration of solute in solid phase\nomeqref {29}\nompageref{10}
-  \item [{\(D_e^M\)}]\begingroup Axial diffusion coefficeint\nomeqref {29}\nompageref{10}
-  \item [{\(D_i\)}]\begingroup Interanl diffusion coefficient\nomeqref {29}\nompageref{10}
-  \item [{\(D_i^R\)}]\begingroup Reference value of interanl diffusion coefficient\nomeqref {29}\nompageref{10}
-  \item [{\(e\)}]\begingroup Internal energy\nomeqref {29}\nompageref{10}
-  \item [{\(F\)}]\begingroup Mass flow rate\nomeqref {29}\nompageref{10}
-  \item [{\(G\)}]\begingroup Vector of discretized differential equations\nomeqref {29}\nompageref{10}
-  \item [{\(k_m\)}]\begingroup Mass partition coefficient\nomeqref {29}\nompageref{10}
-  \item [{\(k_p\)}]\begingroup Volumetric partition coefficient\nomeqref {29}\nompageref{10}
-  \item [{\(L\)}]\begingroup Length of fixed bed\nomeqref {29}\nompageref{10}
-  \item [{\(l\)}]\begingroup Characterisitic diemsinon of particles\nomeqref {29}\nompageref{10}
-  \item [{\(P\)}]\begingroup Pressure\nomeqref {29}\nompageref{10}
-  \item [{\(p\)}]\begingroup Probaility disribution model\nomeqref {29}\nompageref{10}
-  \item [{\(r\)}]\begingroup Particle radius\nomeqref {29}\nompageref{10}
-  \item [{\(R_e\)}]\begingroup Reynolds number\nomeqref {29}\nompageref{10}
-  \item [{\(r_e\)}]\begingroup Mass transfer kinetic term\nomeqref {29}\nompageref{10}
-  \item [{\(T\)}]\begingroup Temperature\nomeqref {29}\nompageref{10}
-  \item [{\(t\)}]\begingroup Time\nomeqref {29}\nompageref{10}
-  \item [{\(T^{in}\)}]\begingroup Inlet temperature\nomeqref {29}\nompageref{10}
-  \item [{\(T^{out}\)}]\begingroup Outlet temperature\nomeqref {29}\nompageref{10}
-  \item [{\(t_0\)}]\begingroup Inital extraction time\nomeqref {29}\nompageref{10}
-  \item [{\(t_f\)}]\begingroup Total extraction time\nomeqref {29}\nompageref{10}
-  \item [{\(u\)}]\begingroup Superfical velocity\nomeqref {29}\nompageref{10}
-  \item [{\(v\)}]\begingroup Linear velocity\nomeqref {29}\nompageref{10}
-  \item [{\(x\)}]\begingroup State vector\nomeqref {29}\nompageref{10}
-  \item [{\(Y\)}]\begingroup Yield measurment\nomeqref {29}\nompageref{10}
-  \item [{\(y\)}]\begingroup Extraction yield\nomeqref {29}\nompageref{10}
-  \item [{\(z\)}]\begingroup Spatial direction\nomeqref {29}\nompageref{10}
+  \item [{\(\mathcal{L}\)}]\begingroup Log-likelihood function\nomeqref {29}\nompageref{12}
+  \item [{\(A\)}]\begingroup Total cross section of the bed\nomeqref {29}\nompageref{12}
+  \item [{\(A_f\)}]\begingroup Cross section of the bed accupied by the fluid\nomeqref {29}\nompageref{12}
+  \item [{\(c_f\)}]\begingroup Concentration of solute in fluid phase\nomeqref {29}\nompageref{12}
+  \item [{\(c_f^*\)}]\begingroup Concentration of solute at the solid-fluid interface\nomeqref {29}\nompageref{12}
+  \item [{\(c_p\)}]\begingroup Concentration of solute in the core of a pore\nomeqref {29}\nompageref{12}
+  \item [{\(c_s\)}]\begingroup Concentration of solute in solid phase\nomeqref {29}\nompageref{12}
+  \item [{\(c_s^*\)}]\begingroup Concentration of solute at the solid-fluid interface\nomeqref {29}\nompageref{12}
+  \item [{\(c_{f0}\)}]\begingroup Inital concentration of solute in fluid phase\nomeqref {29}\nompageref{12}
+  \item [{\(c_{pf}\)}]\begingroup Concentration of solute in the pore opening\nomeqref {29}\nompageref{12}
+  \item [{\(c_{s0}\)}]\begingroup Inital concentration of solute in solid phase\nomeqref {29}\nompageref{12}
+  \item [{\(D_e^M\)}]\begingroup Axial diffusion coefficeint\nomeqref {29}\nompageref{12}
+  \item [{\(D_i\)}]\begingroup Interanl diffusion coefficient\nomeqref {29}\nompageref{12}
+  \item [{\(D_i^R\)}]\begingroup Reference value of interanl diffusion coefficient\nomeqref {29}\nompageref{12}
+  \item [{\(e\)}]\begingroup Internal energy\nomeqref {29}\nompageref{12}
+  \item [{\(F\)}]\begingroup Mass flow rate\nomeqref {29}\nompageref{12}
+  \item [{\(G\)}]\begingroup Vector of discretized differential equations\nomeqref {29}\nompageref{12}
+  \item [{\(k_m\)}]\begingroup Mass partition coefficient\nomeqref {29}\nompageref{12}
+  \item [{\(k_p\)}]\begingroup Volumetric partition coefficient\nomeqref {29}\nompageref{12}
+  \item [{\(L\)}]\begingroup Length of fixed bed\nomeqref {29}\nompageref{12}
+  \item [{\(l\)}]\begingroup Characterisitic diemsinon of particles\nomeqref {29}\nompageref{12}
+  \item [{\(P\)}]\begingroup Pressure\nomeqref {29}\nompageref{12}
+  \item [{\(p\)}]\begingroup Probaility disribution model\nomeqref {29}\nompageref{12}
+  \item [{\(r\)}]\begingroup Particle radius\nomeqref {29}\nompageref{12}
+  \item [{\(R_e\)}]\begingroup Reynolds number\nomeqref {29}\nompageref{12}
+  \item [{\(r_e\)}]\begingroup Mass transfer kinetic term\nomeqref {29}\nompageref{12}
+  \item [{\(T\)}]\begingroup Temperature\nomeqref {29}\nompageref{12}
+  \item [{\(t\)}]\begingroup Time\nomeqref {29}\nompageref{12}
+  \item [{\(T^{in}\)}]\begingroup Inlet temperature\nomeqref {29}\nompageref{12}
+  \item [{\(T^{out}\)}]\begingroup Outlet temperature\nomeqref {29}\nompageref{12}
+  \item [{\(t_0\)}]\begingroup Inital extraction time\nomeqref {29}\nompageref{12}
+  \item [{\(t_f\)}]\begingroup Total extraction time\nomeqref {29}\nompageref{12}
+  \item [{\(u\)}]\begingroup Superfical velocity\nomeqref {29}\nompageref{12}
+  \item [{\(v\)}]\begingroup Linear velocity\nomeqref {29}\nompageref{12}
+  \item [{\(x\)}]\begingroup State vector\nomeqref {29}\nompageref{12}
+  \item [{\(Y\)}]\begingroup Yield measurment\nomeqref {29}\nompageref{12}
+  \item [{\(y\)}]\begingroup Extraction yield\nomeqref {29}\nompageref{12}
+  \item [{\(z\)}]\begingroup Spatial direction\nomeqref {29}\nompageref{12}
 \nomgroup{B}
-  \item [{\(\epsilon\)}]\begingroup Unobervable error\nomeqref {29}\nompageref{10}
-  \item [{\(\gamma\)}]\begingroup Decaying function\nomeqref {29}\nompageref{10}
-  \item [{\(\mu\)}]\begingroup Sphericity coefficient\nomeqref {29}\nompageref{10}
-  \item [{\(\Phi\)}]\begingroup Bed porosity\nomeqref {29}\nompageref{10}
-  \item [{\(\rho_f\)}]\begingroup Fluid density\nomeqref {29}\nompageref{10}
-  \item [{\(\rho_s\)}]\begingroup Bulk density of solid\nomeqref {29}\nompageref{10}
-  \item [{\(\sigma\)}]\begingroup Standard deviation\nomeqref {29}\nompageref{10}
-  \item [{\(\Theta\)}]\begingroup Paramter space\nomeqref {29}\nompageref{10}
-  \item [{\(\theta\)}]\begingroup vector of unknown parameters\nomeqref {29}\nompageref{10}
-  \item [{\(\Upsilon\)}]\begingroup Decay coefficient\nomeqref {29}\nompageref{10}
+  \item [{\(\epsilon\)}]\begingroup Unobervable error\nomeqref {29}\nompageref{12}
+  \item [{\(\gamma\)}]\begingroup Decaying function\nomeqref {29}\nompageref{12}
+  \item [{\(\mu\)}]\begingroup Sphericity coefficient\nomeqref {29}\nompageref{12}
+  \item [{\(\Phi\)}]\begingroup Bed porosity\nomeqref {29}\nompageref{12}
+  \item [{\(\rho_f\)}]\begingroup Fluid density\nomeqref {29}\nompageref{12}
+  \item [{\(\rho_s\)}]\begingroup Bulk density of solid\nomeqref {29}\nompageref{12}
+  \item [{\(\sigma\)}]\begingroup Standard deviation\nomeqref {29}\nompageref{12}
+  \item [{\(\Theta\)}]\begingroup Paramter space\nomeqref {29}\nompageref{12}
+  \item [{\(\theta\)}]\begingroup vector of unknown parameters\nomeqref {29}\nompageref{12}
+  \item [{\(\Upsilon\)}]\begingroup Decay coefficient\nomeqref {29}\nompageref{12}
 \nomgroup{C}
-  \item [{BIC}]\begingroup Broke-and-Intact Cell model\nomeqref {29}\nompageref{10}
-  \item [{MLE}]\begingroup Maximum Likelihood Estimation\nomeqref {29}\nompageref{10}
+  \item [{BIC}]\begingroup Broke-and-Intact Cell model\nomeqref {29}\nompageref{12}
+  \item [{HBD}]\begingroup Hot Ball Diffusion\nomeqref {29}\nompageref{12}
+  \item [{MLE}]\begingroup Maximum Likelihood Estimation\nomeqref {29}\nompageref{12}
+  \item [{SC}]\begingroup Shrinking Core\nomeqref {29}\nompageref{12}
+  \item [{SFE}]\begingroup Supercritical Fluid Extraction\nomeqref {29}\nompageref{12}
 
 \end{thenomenclature}

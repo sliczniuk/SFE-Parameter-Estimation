@@ -141,25 +141,30 @@ Supercritical extraction \sep Parameter estimation \sep Mathematical modelling
 
 \section{Introduction}
 
-{\color{blue}{\color{red}Comment 8 }Supercritical CO$_2$ is defined as carbon dioxide that is pressurized and heated above its critical point (31.1 $^\circ C$, 74 bar). Depending on the operating conditions the fluid properties such as viscosity, density can vary, which leads to multiple applications of pressurized CO$_2$ in different industries. The carbon dioxide used in supercritical CO$_2$ processes is collected from other large-scale industrial processes and is merely diverted through the extraction or separation equipment. Supercritical CO$_2$ is used in many green chemistry processes due to its neutral environmental footprint.
+{\color{blue}{\color{red}Comment 8} Supercritical CO$_2$ is defined as carbon dioxide that is pressurized and heated above its critical point (31.1 $^\circ C$, 74 bar). Depending on the operating conditions, the fluid properties such as viscosity and density can vary, which leads to multiple industrial applications of CO$_2$.
 	
-The supercritical carbon dioxide is commonly used for impregnation as described by \citet{Weidner2018}, \citet{Machado2022} or \citet{Fathi2022}. Impregnation is defined as modifying properties of bulk substances by physically or chemically binding/adsorbing impregnates to a bulk material or surface for example the hydrophobization of surfaces. The main advantage of using supercritical CO$_2$ is that after depressurization it desorbs from the surface and evaporates, leaving a solvent-free product. One the other hand, the main disadvantage of using carbon dioxide for impregnation is low solubility of many drugs of interest in it.
-
-Another application of supercritical CO$_2$ is nanoparticles formation as investigated by \citet{Padrela2018}, \citet{Franco2021}, \citet{SaadatiArdestani2020} or \citet{Sodeifian2022}. Supercritical carbon-dioxide-assisted technologies enable the production of different morphologies of different sizes, including nanoparticles and nanocrystals, by modulating operating conditions. Supercritical fluid-based processes have numerous advantages over techniques conventionally employed to produce nanosized particles or crystals, such as reduced use of toxic solvents, which are completely removed from the final product.
+The supercritical carbon dioxide is commonly used for impregnation as described by \citet{Weidner2018}, \citet{Machado2022} or \citet{Fathi2022}. Impregnation is defined as modifying the properties of bulk substances by physically or chemically binding/adsorbing impregnates to a bulk material or surface, such as the hydrophobization of surfaces. The main advantage of using supercritical CO$_2$ is that after depressurization, it desorbs from the surface and evaporates, leaving a solvent-free product. On the other hand, the main disadvantage of using carbon dioxide for impregnation is the low solubility of many drugs of interest.
 	
-One of the most popular applications of supercritical CO$_2$ is extraction of essential oils, as described by many researchers for example by \citet{Sodeifian2017}, \citet{Reverchon1993} or \citet{Sovova1994}}. Traditional methods, such as distillation and organic solvent extraction, are commonly employed but have drawbacks. Distillation, for example, involves high temperatures that can lead to the thermal degradation of heat-sensitive compounds. This limitation has led to the increased popularity of alternative techniques such as supercritical fluid extraction. Supercritical carbon dioxide is appealing thanks to its distinctive properties: it is inflammable, non-toxic and non-corrosive. Supercritical fluids can exhibit both gas- and liquid-like properties, allowing for adjustable dissolving power through changes in operating conditions.
+Another application of supercritical CO$_2$ is nanoparticles formation as investigated by \citet{Padrela2018}, \citet{Franco2021}, \citet{SaadatiArdestani2020} or \citet{Sodeifian2022}. Supercritical carbon-dioxide-assisted technologies enable the production of different morphologies of different sizes, including nanoparticles and nanocrystals, by modulating operating conditions. Supercritical fluid-based processes have advantages over techniques conventionally employed to produce nanosized particles or crystals, such as reduced use of toxic solvents. Moreover, the CO$_2$ is completely removed from the final product by simple depressurization.
+	
+One of the most popular applications of supercritical CO$_2$ is the extraction of essential oils, as described by many researchers, for example, by \citet{Sodeifian2017}, \citet{Reverchon1993} or \citet{Sovova1994}}. Traditional methods, such as distillation and organic solvent extraction, are commonly employed but have drawbacks. Distillation, involves high temperatures that can lead to the thermal degradation of heat-sensitive compounds. This limitation has increased the popularity of alternative techniques, such as supercritical fluid extraction. Supercritical CO$_2$ is appealing due to its distinctive properties: it is inflammable, non-toxic and non-corrosive. Supercritical fluids can exhibit both gas- and liquid-like properties, allowing for adjustable dissolving power through changes in operating conditions.
 
 %Evaluating the economic viability of the process is essential when choosing a suitable technology for essential oil extraction. 
 
-This study investigates the extraction of essential oil from chamomile flowers (Matricaria chamomilla L.) via supercritical fluid extraction techniques and the modelling of this process. Chamomile is a medicinal herb widely cultivated in southern and eastern Europe — in countries such as Germany, Hungary, France and Russia. It can be found outside Europe, for instance in Brazil as discussed by \citet{Singh2011}. This plant is distinguished by its hollow, bright gold cones, housing disc or tubular florets and surrounded by about fifteen white ray or ligulate florets. Chamomile has been used for its medicinal benefits, serving as an anti-inflammatory, antioxidant, mild astringent, and healing remedy. Aqueous extract of chamomile is widely used to calm nerves and mitigate anxiety, hysteria, nightmares, insomnia and other sleep-related conditions, according to \citet{Srivastava2009}. \citet{Orav2010} reported that oil yields from dried chamomile samples ranged from 0.7 to 6.7 mL/kg. The highest yields of essential oil, between 6.1 and 6.7 mL/kg, were derived from chamomile sourced from Latvia and Ukraine. In comparison, chamomile from Armenia exhibited a lower oil content of 0.7 mL/kg.
+This study investigates the extraction of essential oil from chamomile flowers (Matricaria chamomilla L.) via supercritical fluid extraction techniques and the modelling of this process. Chamomile is a medicinal herb widely cultivated in southern and eastern Europe — in countries such as Germany, Hungary, France and Russia. It can be found outside Europe, for instance in Brazil as discussed by \citet{Singh2011}. This plant is distinguished by its hollow, bright gold cones, housing disc or tubular florets and surrounded by about fifteen white ray or ligulate florets. Chamomile has been used for its medicinal benefits, serving as an anti-inflammatory, antioxidant, mild astringent, and healing remedy. Extracts of chamomile are widely used to calm nerves and mitigate anxiety, hysteria, nightmares, insomnia and other sleep-related conditions, according to \citet{Srivastava2009}. \citet{Orav2010} reported that oil yields from dried chamomile samples ranged from 0.7 to 6.7 mL/kg. The highest yields of essential oil, between 6.1 and 6.7 mL/kg, were derived from chamomile sourced from Latvia and Ukraine. In comparison, chamomile from Armenia exhibited a lower oil content of 0.7 mL/kg.
 
 The literature offers various mathematical models to describe the extraction of valuable compounds from biomass. Selecting a process model is case-to-case dependent and requires analysis of each model's specific assumptions about mass transfer and thermodynamic equilibrium.
 
-The model proposed by \citet{Reverchon1993} is called the hot ball model, as it is based on an analogy to heat transfer and describes an extraction process from solid particles. This model assumes that particles contain low quantities of solute and that solubility is not a limiting factor.
+{\color{red}Comment 9} {\color{blue}
+\citet{Goto1996} presented the Shrinking Core (SC) model, which describes a process of irreversible desorption that is followed by diffusion through the pores of a porous solid. When the mass transfer rate of the solute in the non-extracted inner region is significantly slower than in the outer region, where most of the solute has already been extracted, or when the solute concentration exceeds its solubility in the solvent, a distinct boundary may form between the inner and outer regions. As extraction progresses, the core of the inner region shrinks. The model envisions supercritical CO$_2$ extraction as a sharp, inward-moving front, with a completely non-extracted core ahead of the front and a fully extracted shell behind it.
+	
+\citet{Sovova1994} proposed The Broken-and-Intact Cell (BIC) model, which assumes that a portion of the solute, initially stored within plant structures and protected by cell walls, is released during the mechanical breakdown of the material. The solute located in the region of broken cells near the particle surface is directly exposed to the solvent, while the core of the particle contains intact cells with undamaged walls. This model describes three extraction phases: a fast extraction phase for accessible oil, a transient phase, and a slow phase controlled by diffusion. The model has been successfully applied to the extraction of grape oil (\citet{Sovova1994b}) and caraway oil (\citet{Sovova1994a}).
 
-The Broken-and-Intact Cell model, proposed by \citet{Sovova1994}, assumes that external surfaces of particles are mechanically disrupted, allowing the solvent access to the solute in the broken cells. In contrast, the solute in intact cells remains less accessible due to higher mass transfer resistance.
+The Supercritical Fluid Extraction (SFE) process can be be treated similarly to heat transfer, considering solid particles like hot balls cooling down in a uniform environment. \citet{Bartle1990} introduced the hot ball diffusion (HBD) model, where spherical particles with uniformly distributed solute diffuse similarly to heat diffusion. Unlike the BIC model, where solute is readily available on the particle surface, the HBD model is suited for systems with small quantities of extractable materials and is not limited by solubility. The model is particularly relevant when internal diffusion controls mass transfer, allowing results from single particles to be extended to the entire bed under uniform conditions. \citet{Reverchon1993} have further elaborated on the HBD model and used it to simulate extraction processes for natural materials.
 
-\citet{Reverchon1996} formulated a fluid-solid extraction model where the solute is treated as a single component, governed by internal mass transfer resistance and omitting the effects of external mass transfer, axial dispersion and variations in fluid density and flow rate throughout the bed.
+\citet{Reverchon1996} proposed a model for extraction of essential oils, which are mainly located inside the vegetable cells in organules called vacuoles. Only a small fraction of essential oil might be near the particle surface due to the breaking up of cells during grinding or in epidermal hairs located on the leaf surface. The fraction of oil freely available on the particle surface should not be significant in the case of SFE from leaves. Consequently, SFE of essential oil from leaves should be mainly controlled by the internal mass-transfer resistance. Therefore, the external mass-transfer coefficient was neglected in the development of the model of \citet{Reverchon1996}. The mass balances were developed in the additional hypotheses that the axial dispersion can be neglected and that the solvent density and flow rate are constant along the bed.
+
+}
 
 This work builds upon the linear kinetic model suggested by \citet{Reverchon1996}, deriving fundamental governing equations to develop a comprehensive model for the chamomile oil extraction process. This model aims for control-oriented simplicity, assuming a semi-continuous operation within a cylindrical vessel. The process involves a supercritical solvent being pumped through a fixed bed of finely chopped biomass to extract the solute, followed by separation of the solvent and solute in a flush drum to collect the extract. Parameters such as pressure ($P$), feed flow rate ($F$) and inlet temperature ($T^{in}$) are adjustable and measurable, while the outlet temperature ($T^{out}$) and the amount of product at the outlet can only be monitored. Figure \ref{fig: SFE_drawing} presents a simplified process flow diagram.
 
@@ -436,7 +441,7 @@ The parameter estimation problem can be formulated as follows:
 		\end{aligned}
 \end{equation} } 
 
-where $\hat{\theta}$ is the maximum likelihood estimator, $\theta^{lb}$ defines the minimal value of $\theta$, $\theta^{ub}$ is the maximum value of $\theta$ and $\sigma$ represents the standard deviation of the residuals (errors) between the observed data points and the model outputs.
+where $\hat{\theta}$ is the maximum likelihood estimator, $\theta^{lb}$ defines the minimal value of $\theta$, $\theta^{ub}$ is the maximum value of $\theta$ and $\sigma$ represents the standard deviation of the residuals (errors) between the dataset and the model outputs.
 
 The initial guess for each decision variable, as well as the lower and upper bounds, are given in Table \ref{tab:Constraints}. 
 
@@ -455,7 +460,7 @@ The initial guess for each decision variable, as well as the lower and upper bou
 		\label{tab:Constraints}
 	\end{table}
 	
-	The solution of Equation \ref{EQ: Optimization_formulation_MLE} yields the desired estimates $\hat{\theta}$. For some models, these equations can be explicitly solved for $\hat{\theta}$, but in general, no closed-form solution to the maximization problem is known or available, and a maximum likelihood estimator can only be found via numerical optimization.
+	The solution of Equation \ref{EQ: Optimization_formulation_MLE} yields the estimates $\hat{\theta}$. For some models, these equations can be explicitly solved for $\hat{\theta}$, but in general, no closed-form solution to the maximization problem is known or available, and a maximum likelihood estimator can only be found via numerical optimization.
 
 %\subsection{Experimental work}
 
@@ -480,7 +485,7 @@ To solve the parameter estimation problem, the single shooting method was used t
 	\begin{subfigure}{0.9\columnwidth}
 		\centering
 		\includegraphics[trim = 0.0cm 0.0cm 0.0cm 0.0cm,clip, width=\columnwidth]{/Results_estimation/Parameter_Space_Linear_Dataset_1.png}
-		\caption{The linear kinetic model \\ ~}
+		\caption{The linear kinetic model}
 		\label{fig: Fit_1_linear}
 	\end{subfigure}
 	\hfill
@@ -490,7 +495,7 @@ To solve the parameter estimation problem, the single shooting method was used t
 		\caption{The modified model}
 		\label{fig: Fit_1_Di_Gamma}
 	\end{subfigure}
-	\caption{Parameter space for experiment 1.}
+	\caption{Parameter space for experiment 1}
 	%\label{fig: Fit_Di_Gamma}
 \end{figure}
 
@@ -508,21 +513,21 @@ In the scenario previously discussed, the fitting outcomes were not deemed satis
 
 \begin{figure}[!h]
 	\centering
-	\begin{subfigure}{0.9\columnwidth}
+	\begin{subfigure}{0.92\columnwidth}
 		\centering
 		\includegraphics[trim = 0.0cm 0.0cm 0.0cm 0.0cm,clip, width=\columnwidth]{/Results_estimation/Fit_Di_Gamma_1_4_1.png}
 		\caption{Parameter estimation results at $6.67\cdot 10^{-5}$ kg/s and temperature of 40 $^\circ C$}
 		\label{fig: Fit_1_4_Di_Gamma}
 	\end{subfigure}
 	\hfill
-	\begin{subfigure}{0.9\columnwidth}
+	\begin{subfigure}{0.92\columnwidth}
 		\centering
 		\includegraphics[trim = 0.0cm 0.0cm 0.0cm 0.0cm,clip, width=\columnwidth]{/Results_estimation/Fit_Di_Gamma_5_8_1.png}
 		\caption{Parameter estimation results at $6.67\cdot 10^{-5}$ kg/s and temperature of 30 $^\circ C$}
 		\label{fig: Fit_5_8_Di_Gamma}
 	\end{subfigure}
 	\hfill
-	\begin{subfigure}{0.9\columnwidth}
+	\begin{subfigure}{0.92\columnwidth}
 		\centering
 		\includegraphics[trim = 0.0cm 0.0cm 0.0cm 0.0cm,clip, width=\columnwidth]{/Results_estimation/Fit_Di_Gamma_9_12_1.png}
 		\caption{Results of parameter estimation for experiments at $3.33\cdot 10^{-5}$ kg/s}
@@ -532,9 +537,9 @@ In the scenario previously discussed, the fitting outcomes were not deemed satis
 	\label{fig: Fit_Di_Gamma}
 \end{figure}
 
-The parameter space for the modified model exhibits a distinct minimum value corresponding to the solution of the parameter estimation problem for experiment 1. The red circle highlights the minimum value of the cost function found by the optimiser. The remaining experiments are fitted to the modified extraction model, and the results, presented in Figure \ref{fig: Fit_Di_Gamma}, show good agreement with the experimental data. 
+The parameter space for the modified model exhibits a distinct minimum value corresponding to the solution of the parameter estimation problem for experiment 1. The red circle highlights the minimum value of the cost function found by the optimiser. The remaining experiments are fitted to the modified extraction model, and the results, presented in Figure \ref{fig: Fit_Di_Gamma}, show good agreement with the dataset. 
 
-The parameter estimation results are combined to analyse the relationship between the obtained parameters and the operating conditions. Unlike traditional methods that employ a combination of Reynolds, Schmidt and Sherwood numbers to find correlation, the approach in this study leverages the fixed-bed Reynolds number $\left(Re = \frac{2r \cdot \rho_f \cdot u}{\mu}\right)$ as the sole independent variable. Using the Reynolds number has the advantage of considering the influence of all the control variables (temperature, pressure and flow rate), which means it can be uniquely defined by selecting the operating conditions.	
+The parameter estimation results are combined to analyse the relationship between the obtained parameters and the operating conditions. Unlike traditional methods that employ a combination of Reynolds, Schmidt and Sherwood numbers to find correlation, the approach in this study leverages the fixed-bed Reynolds number $\left(Re = \frac{2r \cdot \rho_f \cdot u}{\mu}\right)$ as the independent variable. The Reynolds number has the advantage of considering the influence of all the control variables (temperature, pressure and flow rate), which means it can be uniquely defined by selecting the operating conditions.	
 
 \begin{figure}[!h]
 	\centering
@@ -576,25 +581,25 @@ In Figures \ref{fig: Correlations_Di_Re} and \ref{fig: Correlations_Gamma_Re}, t
 	%\label{fig: Correlations_surface}
 \end{figure}
 
-A more general relationship can be obtained by applying multiple linear regression instead of linear regression. The data clusters in Figure \ref{fig: Correlations_Di_Re} and \ref{fig: Correlations_Gamma_Re} are close to parallel, suggesting that a plane would combine all the data points. The Reynolds number and mass flow rate act as independent variables for $D_i^R$ and $\Upsilon$, as presented in Figures \ref{fig: Correlations_Di_Re_F} and \ref{fig: Correlations_Gamma_Re_F}. The presented correlations are valid in the whole range of investigated operating conditions. The correlations are later tested against the original dataset to show that the correlations can reproduce the results with satisfactory accuracy. Figure \ref{fig: Fit_Di_Gamma_correlation} shows the results of the simulations with incorporated correlations. Good agreement between the simulation results and the dataset can be observed. If Figures \ref{fig: Fit_Di_Gamma} and \ref{fig: Fit_Di_Gamma_correlation} are compared, a decrease in the accuracy of simulations can be observed. Such behaviour is expected due to the bias-variance trade-off, which describes the relationship between a model's complexity and the accuracy of its predictions.
+A more general relationship can be obtained by applying multiple linear regression instead of linear regression. The data clusters in Figure \ref{fig: Correlations_Di_Re} and \ref{fig: Correlations_Gamma_Re} are close to parallel, suggesting that a plane would combine all the data points. The Reynolds number and mass flow rate act as independent variables for $D_i^R$ and $\Upsilon$, as presented in Figures \ref{fig: Correlations_Di_Re_F} and \ref{fig: Correlations_Gamma_Re_F}. The presented correlations are valid in the whole range of investigated operating conditions. The correlations are later tested against the original dataset to show that the correlations can reproduce the results with satisfactory accuracy. Figure \ref{fig: Fit_Di_Gamma_correlation} shows the results of the simulations with incorporated correlations. {\color{red}Comment 12} {\color{blue}Good agreement between the simulation results and the dataset can be observed, as presented by low values of the mean square error and standard deviation as presented in Table \ref{tab:Modelling_Error}}. If Figures \ref{fig: Fit_Di_Gamma} and \ref{fig: Fit_Di_Gamma_correlation} are compared, a decrease in the accuracy of simulations can be observed. Such behaviour is expected due to the bias-variance trade-off, which describes the relationship between a model's complexity and the accuracy of its predictions.
 
 \begin{figure}[!h]
 	\centering
-	\begin{subfigure}{0.9\columnwidth}
+	\begin{subfigure}{0.92\columnwidth}
 		\centering
 		\includegraphics[trim = 0.0cm 0.0cm 0.0cm 0.0cm,clip, width=\columnwidth]{/Results_estimation/Fit_Di_Gamma_1_4_correlation_1.png}
 		\caption{Simulation results obtained at $6.67\cdot 10^{-5}$ kg/s and temperature of 40 $^\circ C$}
 		\label{fig: Fit_1_4_Di_Gamma_correlation}
 	\end{subfigure}
 	\hfill
-	\begin{subfigure}{0.9\columnwidth}
+	\begin{subfigure}{0.92\columnwidth}
 		\centering
 		\includegraphics[trim = 0.0cm 0.0cm 0.0cm 0.0cm,clip, width=\columnwidth]{/Results_estimation/Fit_Di_Gamma_5_8_correlation_1.png}
 		\caption{Simulation results obtained at $6.67\cdot 10^{-5}$ kg/s and temperature of 30 $^\circ C$}
 		\label{fig: Fit_5_8_Di_Gamma_correlation}
 	\end{subfigure}
 	\hfill
-	\begin{subfigure}{0.9\columnwidth}
+	\begin{subfigure}{0.92\columnwidth}
 		\centering
 		\includegraphics[trim = 0.0cm 0.0cm 0.0cm 0.0cm,clip, width=\columnwidth]{/Results_estimation/Fit_Di_Gamma_9_12_correlation_1.png}
 		\caption{Simulation results obtained at $3.33 \cdot 10^{-5}$ kg/s}
@@ -604,10 +609,24 @@ A more general relationship can be obtained by applying multiple linear regressi
 	\label{fig: Fit_Di_Gamma_correlation}
 \end{figure}
 
+\begin{table*}[h]
+	\centering
+	\adjustbox{max width=0.9\textwidth}{%
+		%\small{
+			\begin{tabular}{ l|ccccccccccccc }
+				\hline 
+				Experiment			&1 		& 2 		& 3 	 & 4 	  & 5 	   &6 	   & 7	   & 8	   & 9	   & 10    & 11    & 12	\\  \hline
+				Mean squared error	&0.0178 & 0.0058 	& 0.0027 & 0.0361 & 0.0162 &0.0596 & 0.0162& 0.0296& 0.0420& 0.0295& 0.0083& 0.0048	\\  
+				Standard deviation of error	&0.0557 & 0.0569 	& 0.0458 & 0.0769 & 0.0603 &0.0899 & 0.0465& 0.0910& 0.0872& 0.0772& 0.0382& 0.0250	\\  \hline
+		\end{tabular} }
+		\caption{Error between experimental data and model predictions}
+		\label{tab:Modelling_Error}
+	\end{table*}
+
 The parameter estimation results are compared against those presented by \citet{Povh2001}, who applied the Sovova model to the same dataset. It is important to note that, as the initial solute mass ratio, \citet{Povh2001} used  a value of 10\% above the total amount of extract for every experiment, while in this work, the initial conditions are the same for all the experiments. In contrast to this work, \citet{Povh2001} did not utilise numerical solvers but used a mix of analytical methodologies and trial-and-error procedures. \citet{Povh2001} remarked that 'the direct fitting of experimental data to Sovova's model produced parameters that could not be accepted after a careful physical interpretation of the system'. The parameters identified in this study have a physical interpretation and are within the expected range.
 
 \citet{Rahimi2011} analysed the same dataset using the desorption-dissolution-diffusion model. To decrease the number of unknown parameters, \citet{Rahimi2011} applied a set of empirical correlations. The remaining parameters were determined using a genetic algorithm to solve the parameter estimation problem for each experiment individually. The results obtained by \citet{Rahimi2011} show that the desorption-dissolution-diffusion model fails to reproduce the yield data. The main difference between the model employed by \citet{Rahimi2011} and the one in this study is the $\gamma$ function. The $\gamma$ function increases the model's flexibility by adjusting $D_i$ and allows it to obtain a better fit. \citet{Povh2001} and \citet{Rahimi2011} delivered a set of independent parameters for every experiment. This work combines the parameters obtained from each experiment to obtain a single correlation valid for the whole range of investigated operating conditions.\\
-{\color{red}Comments 11 and 15} {\color{blue}The primary advantage of the proposed model lies in its added flexibility compared to traditional desorption-dissolution-diffusion models found in the literature. While it follows the same assumptions and limitations as these traditional models, it introduces an additional assumption: a decaying internal diffusion coefficient. If there is no actual decay in \(D_i\), the model can approximate a linear decay with a low slope, effectively mimicking traditional desorption-dissolution-diffusion models. This added flexibility, however, comes at the cost of requiring an extra parameter to be fitted, which could lead to overfitting, especially with limited datasets.
+{\color{red}Comments 11 and 15} {\color{blue}The primary advantage of the proposed model lies in its added flexibility compared to traditional desorption-dissolution-diffusion models found in the literature. While it follows the same assumptions and limitations as these traditional models, it introduces an additional postulate: a decaying internal diffusion coefficient. If there is no actual decay in \(D_i\), the presented model can approximate the traditional desorption-dissolution-diffusion models, by finding low values of a decaying factor $\Upsilon$. In such a case, the exponent approach unity as $\Upsilon$ goes to zero regardless of $\left( 1 - \frac{c_s}{c_{s0}} \right)$. This added flexibility, however, comes at the cost of requiring an extra parameter to be fitted, which could lead to overfitting, especially with limited datasets.
 	
 The modification of the model was not derived from theoretical considerations but from analyzing assumptions in existing models, such as the BIC model and the Shrinking Core model, and applying corresponding simplifications. As a result, the proposed model should be categorized as semi-empirical. This approach allows for the development of tailored models but may make it challenging to find physical interpretations for some parameters.
 	
@@ -620,7 +639,7 @@ The accuracy of the obtained correlations is heavily influenced by the quality o
 
 The article has presented a comprehensive study on the supercritical fluid extraction of essential oil from chamomile flowers, focusing on developing and applying a distributed-parameter model to describe the fluid-solid extraction process. By employing the concept of quasi-one-dimensional flow, the study simplifies the spatial dimensions of the extraction process, ensuring uniform flow across any cross-section while allowing for variations in the area available for the fluid phase. The physical properties of the solvent are estimated using the Peng-Robinson equation of state.
 
-The model calibration is based on the data from laboratory experiments conducted by \citet{Povh2001} under various conditions. The model parameters, such as the partition factor, internal diffusion coefficient and decaying factor, were determined through maximum likelihood estimation based on experimental data. The parameter space exploration revealed that while some parameters could be determined with a high degree of confidence, others, like the partition factor, had a low impact on the model's output. The identification of low-impact parameters leads to model reduction. This work introduced a set of correlations to find a general relationship between the parameters and the operating conditions. The obtained correlations were incorporated into the process model and tested against the dataset. The process model is capable of reproducing the dataset with satisfactory accuracy.
+The model calibration is based on the data from laboratory experiments conducted by \citet{Povh2001} under various conditions. The model parameters, such as the partition factor, internal diffusion coefficient and decaying factor, were determined through maximum likelihood estimation based on experimental data. The parameter space exploration revealed that while some parameters could be determined with a high degree of confidence, others, like the partition factor, had a low impact on the model's output. The identification of low-impact parameters leads to model reduction. This work introduced a set of correlations to find a relationship between the kinetic parameters and the operating conditions. The obtained correlations were incorporated into the process model and tested against the dataset. The process model is capable of reproducing the dataset with satisfactory accuracy.
 
 %The process model can be further used with the presented correlations to introduce an extraction model with dynamically changing operating conditions for multiple purposes, such as yield maximisation, local sensitivity analysis, techno-economic analysis or optimal design of experiments.
 
@@ -628,8 +647,8 @@ The model calibration is based on the data from laboratory experiments conducted
 % Bibliography
 % ===================================================
 %% Loading bibliography style file
-%\clearpage
-\newpage
+\clearpage
+%\newpage
 %\bibliographystyle{model1-num-names}
 \bibliographystyle{unsrtnat}
 \bibliography{mybibfile}
@@ -826,7 +845,9 @@ The largest and smallest are the vapour and liquid phases, respectively. The mid
 
 \nomenclature[C]{BIC}{Broke-and-Intact Cell model}
 \nomenclature[C]{MLE}{Maximum Likelihood Estimation}
-%\nomenclature[C]{SFE}{Supercritical Fluid Extraction}
+\nomenclature[C]{SFE}{Supercritical Fluid Extraction}
+\nomenclature[C]{HBD}{Hot Ball Diffusion}
+\nomenclature[C]{SC}{Shrinking Core}
 
 \printnomenclature
 
